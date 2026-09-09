@@ -111,7 +111,7 @@ data/reference/food_nutrition_2025.xlsx
 # 2. 專案資料夾結構
 
 ```text
-Recipe_Collections_v2/
+Recipe_Collections/
 │
 ├── .env.example
 ├── .gitignore
@@ -303,7 +303,7 @@ needs_manual_review = 1
 以下所有指令都在專案根目錄執行：
 
 ```bash
-cd Recipe_Collections_v2
+cd Recipe_Collections
 ```
 
 先建立環境檔：
