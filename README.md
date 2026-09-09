@@ -1,4 +1,4 @@
-# Recipe Collections v2 — 食譜資料清洗、正規化、MySQL、Flask API、Hermes 串接完整教學
+# Recipe Collections v1 — 食譜資料清洗、正規化、MySQL、Flask API、Hermes 串接完整教學
 
 ## FIXED：統一 Docker + VS Code + uv 開發環境
 
