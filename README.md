@@ -1,6 +1,6 @@
 # Recipe Collections v2 — 食譜資料清洗、正規化、MySQL、Flask API、Hermes 串接完整教學
 
-## v2.4 FIXED：統一 Docker + VS Code + uv 開發環境
+## FIXED：統一 Docker + VS Code + uv 開發環境
 
 這一版修正了先前 `.venv`、`/opt/venv`、`PYTHONPATH` 與 `/workspace` 混用的問題。正式開發固定使用：
 
