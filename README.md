@@ -42,7 +42,7 @@ uv run python scripts/10_pipeline.py
 
 ---
 
-> **v2.3 JSON 格式統一**：本版將 ETL/正規化程式產生的中間檔、reference mapping 與人工審核檔全部統一為標準 `.json` 陣列格式。原始營養 Excel 屬外部來源資料，因此仍保留 `.xlsx`；MySQL SQL/DBML/Docker 設定檔也不屬資料輸出格式，因此維持原格式。
+> **JSON 格式統一**：本版將 ETL/正規化程式產生的中間檔、reference mapping 與人工審核檔全部統一為標準 `.json` 陣列格式。原始營養 Excel 屬外部來源資料，因此仍保留 `.xlsx`；MySQL SQL/DBML/Docker 設定檔也不屬資料輸出格式，因此維持原格式。
 
 
 本版本依照目前最後確定的流程重新整理，重點是：
