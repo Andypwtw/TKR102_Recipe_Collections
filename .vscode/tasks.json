@@ -1,0 +1,32 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Pipeline: run until manual review",
+      "type": "shell",
+      "command": "uv run python scripts/10_pipeline.py",
+      "options": {
+        "cwd": "/workspace/python"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "ETL: profile raw JSON",
+      "type": "shell",
+      "command": "uv run python scripts/01_profile_raw_json.py",
+      "options": {
+        "cwd": "/workspace/python"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Flask: health check",
+      "type": "shell",
+      "command": "python -c \"import urllib.request; print(urllib.request.urlopen('http://127.0.0.1:5000/health').read().decode())\"",
+      "options": {
+        "cwd": "/workspace/python"
+      },
+      "problemMatcher": []
+    }
+  ]
+}

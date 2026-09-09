@@ -1,0 +1,4002 @@
+[
+  {
+    "ingredient": "水",
+    "unit": "cc",
+    "usage_count": 6681,
+    "examples": "水 300㏄ / 水 8000㏄ / 水 5000㏄",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "鹽",
+    "unit": "小匙",
+    "usage_count": 4609,
+    "examples": "鹽 1/2小匙 / 鹽 1小匙 / 鹽 1小匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "鹽",
+    "unit": "茶匙",
+    "usage_count": 3541,
+    "examples": "鹽 1/3茶匙 / 鹽 1/4茶匙 / 鹽 1/3茶匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "米酒",
+    "unit": "大匙",
+    "usage_count": 3256,
+    "examples": "米酒 1大匙 / 米酒 1大匙 / 米酒 1大匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "醬油",
+    "unit": "大匙",
+    "usage_count": 2646,
+    "examples": "醬油 1大匙 / 醬油 1大匙 / 醬油 1大匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "糖",
+    "unit": "小匙",
+    "usage_count": 2119,
+    "examples": "糖 1/2小匙 / 糖 1小匙 / 糖 1/2小匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "糖",
+    "unit": "大匙",
+    "usage_count": 1721,
+    "examples": "糖 1/2大匙 / 糖 2大匙 / 糖 1大匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "香油",
+    "unit": "小匙",
+    "usage_count": 1589,
+    "examples": "香油 1小匙 / 香油 1小匙 / 香油 1小匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "蔥",
+    "unit": "支",
+    "usage_count": 1559,
+    "examples": "蔥 2支 / 蔥 2支 / 2.蔥 2支",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "太白粉",
+    "unit": "大匙",
+    "usage_count": 1290,
+    "examples": "太白粉 2大匙 / 太白粉 1/2大匙 / 太白粉 1/2大匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "高湯",
+    "unit": "cc",
+    "usage_count": 1288,
+    "examples": "高湯 100㏄ / 高湯 600㏄ / 高湯 1500c.c",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "香油",
+    "unit": "大匙",
+    "usage_count": 1256,
+    "examples": "香油 1大匙 / 香油 1大匙 / 香油 1/2大匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "水",
+    "unit": "大匙",
+    "usage_count": 1235,
+    "examples": "水 3大匙 / 水 1大匙 / 水 3大匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "雞蛋",
+    "unit": "顆",
+    "usage_count": 1178,
+    "examples": "雞蛋 1顆 / 雞蛋 1顆 / 雞蛋 1顆",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "糖",
+    "unit": "茶匙",
+    "usage_count": 1138,
+    "examples": "糖 5茶匙 / 糖 1/4茶匙 / 糖 1/8茶匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "雞粉",
+    "unit": "小匙",
+    "usage_count": 1115,
+    "examples": "雞粉 1/4小匙 / 雞粉 2小匙 / 雞粉 2小匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "水",
+    "unit": "杯",
+    "usage_count": 1052,
+    "examples": "水 1杯 / 水 6杯 / 水 5杯",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "醬油",
+    "unit": "小匙",
+    "usage_count": 1037,
+    "examples": "醬油 1小匙 / 醬油 1小匙 / 醬油 1小匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "太白粉",
+    "unit": "茶匙",
+    "usage_count": 968,
+    "examples": "b.太白粉水 1茶匙 / 太白粉 2茶匙 / 太白粉 1茶匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "大蒜",
+    "unit": "粒",
+    "usage_count": 950,
+    "examples": "大蒜 3粒 / 大蒜 2粒 / 大蒜 5粒",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "米酒",
+    "unit": "cc",
+    "usage_count": 913,
+    "examples": "米酒 15㏄ / 米酒 45㏄ / 米酒 15㏄",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "醬油",
+    "unit": "cc",
+    "usage_count": 904,
+    "examples": "2.醬油 50㏄ / 3.醬油 25cc / 醬油 100㏄",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "沙拉油",
+    "unit": "大匙",
+    "usage_count": 900,
+    "examples": "沙拉油 1大匙 / 沙拉油 1/3大匙 / 沙拉油 2大匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "香油",
+    "unit": "茶匙",
+    "usage_count": 862,
+    "examples": "香油 1茶匙 / 香油 1茶匙 / 香油 1茶匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "米酒",
+    "unit": "小匙",
+    "usage_count": 795,
+    "examples": "米酒 1小匙 / 米酒 1小匙 / 米酒 1小匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "太白粉",
+    "unit": "小匙",
+    "usage_count": 744,
+    "examples": "太白粉 1/2小匙 / 太白粉 1/2小匙 / 太白粉 1小匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "細砂糖",
+    "unit": "茶匙",
+    "usage_count": 744,
+    "examples": "細砂糖 1/2茶匙 / 細砂糖 1/6茶匙 / 細砂糖 1/2茶匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "洋蔥",
+    "unit": "顆",
+    "usage_count": 715,
+    "examples": "洋蔥 1顆 / 洋蔥 1顆 / 洋蔥 1顆",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "薑",
+    "unit": "片",
+    "usage_count": 709,
+    "examples": "薑片 5-6片 / 薑 2片 / 薑片 3片",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "辣椒",
+    "unit": "條",
+    "usage_count": 683,
+    "examples": "辣椒 1條 / 辣椒 1條 / 辣椒 1條",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "醬油",
+    "unit": "茶匙",
+    "usage_count": 661,
+    "examples": "醬油 1茶匙 / 醬油 1茶匙 / A.醬油 1茶匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "蠔油",
+    "unit": "大匙",
+    "usage_count": 650,
+    "examples": "蠔油 2大匙 / 蠔油 1大匙 / 蠔油 1大匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "醬油膏",
+    "unit": "大匙",
+    "usage_count": 645,
+    "examples": "1.醬油膏 2大匙 / 醬油膏 2大匙 / b.醬油膏 3大匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "細砂糖",
+    "unit": "小匙",
+    "usage_count": 637,
+    "examples": "細砂糖 1小匙 / 細砂糖 2小匙 / 細砂糖 1小匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "細砂糖",
+    "unit": "大匙",
+    "usage_count": 635,
+    "examples": "細砂糖 1大匙 / 細砂糖 1大匙 / 細砂糖 1大匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "白飯",
+    "unit": "碗",
+    "usage_count": 630,
+    "examples": "白飯 1碗 / 白飯 1碗 / 白飯 1碗",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "蛋",
+    "unit": "個",
+    "usage_count": 627,
+    "examples": "蛋 3個 / 蛋 1個 / 蛋 1個",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "鹽",
+    "unit": "大匙",
+    "usage_count": 621,
+    "examples": "鹽 1/3大匙 / 鹽 1/4大匙 / 鹽 1大匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "胡椒粉",
+    "unit": "小匙",
+    "usage_count": 610,
+    "examples": "胡椒粉 1/2小匙 / 胡椒粉 2小匙 / 胡椒粉 1小匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "蕃茄醬",
+    "unit": "大匙",
+    "usage_count": 563,
+    "examples": "蕃茄醬 2大匙 / 蕃茄醬 3大匙 / 蕃茄醬 3大匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "蛋",
+    "unit": "顆",
+    "usage_count": 542,
+    "examples": "蛋 2顆 / 蛋 2顆 / 2.蛋 1顆",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "白胡椒粉",
+    "unit": "小匙",
+    "usage_count": 529,
+    "examples": "白胡椒粉 1小匙 / 白胡椒粉 1小匙 / 白胡椒粉 1小匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "香菇",
+    "unit": "朵",
+    "usage_count": 521,
+    "examples": "香菇 1朵 / 香菇 2朵 / 香菇 1朵",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "小黃瓜",
+    "unit": "條",
+    "usage_count": 490,
+    "examples": "小黃瓜 3條 / 小黃瓜 1條 / 小黃瓜 1/2條",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "大蒜",
+    "unit": "顆",
+    "usage_count": 481,
+    "examples": "蒜頭 2顆 / 蒜頭 5顆 / 蒜頭 5顆",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "紅辣椒",
+    "unit": "根",
+    "usage_count": 479,
+    "examples": "紅辣椒 1根 / 紅辣椒 1根 / 紅辣椒 1根",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "白醋",
+    "unit": "大匙",
+    "usage_count": 465,
+    "examples": "2.白醋 1大匙 / 白醋 2大匙 / 白醋 1大匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "細糖",
+    "unit": "茶匙",
+    "usage_count": 460,
+    "examples": "細糖 1茶匙 / 細糖 1/2茶匙 / 細糖 1茶匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "白胡椒粉",
+    "unit": "茶匙",
+    "usage_count": 453,
+    "examples": "白胡椒粉 1茶匙 / 白胡椒粉 1茶匙 / 白胡椒粉 1/2茶匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "橄欖油",
+    "unit": "大匙",
+    "usage_count": 449,
+    "examples": "橄欖油 1大匙 / 橄欖油 2大匙 / 橄欖油 2大匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "沙拉油",
+    "unit": "cc",
+    "usage_count": 445,
+    "examples": "沙拉油 30㏄ / 沙拉油 15㏄ / 沙拉油 30㏄",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "味醂",
+    "unit": "大匙",
+    "usage_count": 387,
+    "examples": "味醂 3/4大匙 / 味醂 1大匙 / 味醂 1大匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "辣椒",
+    "unit": "根",
+    "usage_count": 384,
+    "examples": "辣椒 1/2根 / 辣椒 1根 / 辣椒 2根",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "蒜末",
+    "unit": "大匙",
+    "usage_count": 367,
+    "examples": "蒜末 1大匙 / 蒜末 1大匙 / 蒜末 1又1/2大匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "酒",
+    "unit": "大匙",
+    "usage_count": 365,
+    "examples": "酒 1大匙 / 酒 2大匙 / 酒 5大匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "洋蔥",
+    "unit": "個",
+    "usage_count": 354,
+    "examples": "洋蔥 半個 / 洋蔥 1個 / 洋蔥 1個",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "胡椒粉",
+    "unit": "茶匙",
+    "usage_count": 343,
+    "examples": "胡椒粉 1/2茶匙 / 胡椒粉 1/2茶匙 / 胡椒粉 1/2茶匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "蒜仁",
+    "unit": "顆",
+    "usage_count": 343,
+    "examples": "蒜仁 3顆 / 蒜仁 2顆 / 蒜仁 2顆",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "米酒",
+    "unit": "茶匙",
+    "usage_count": 334,
+    "examples": "米酒 1茶匙 / 米酒 2茶匙 / 米酒 1茶匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "雞粉",
+    "unit": "茶匙",
+    "usage_count": 329,
+    "examples": "雞粉 1茶匙 / 雞粉 1茶匙 / 雞粉 1茶匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "奶油",
+    "unit": "大匙",
+    "usage_count": 328,
+    "examples": "奶油 2大匙 / 奶油 2大匙 / 奶油 1大匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "檸檬汁",
+    "unit": "大匙",
+    "usage_count": 325,
+    "examples": "檸檬汁 1大匙 / 檸檬汁 2大匙 / 檸檬汁 1/2大匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "牛奶",
+    "unit": "cc",
+    "usage_count": 325,
+    "examples": "牛奶 15cc / 牛奶 120cc / 牛奶 20cc",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "蔥",
+    "unit": "大匙",
+    "usage_count": 318,
+    "examples": "蔥末 1大匙 / 蔥花 1大匙 / 蔥 1大匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "味醂",
+    "unit": "cc",
+    "usage_count": 317,
+    "examples": "味醂 100㏄ / 味醂 30㏄ / 味醂 50㏄",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "冰糖",
+    "unit": "大匙",
+    "usage_count": 315,
+    "examples": "冰糖 1大匙 / 冰糖 1大匙 / 冰糖 1大匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "鮮奶",
+    "unit": "cc",
+    "usage_count": 314,
+    "examples": "鮮奶 15㏄ / 鮮奶 40cc / 鮮奶 150㏄",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "八角",
+    "unit": "粒",
+    "usage_count": 308,
+    "examples": "八角 2粒 / 八角 2粒 / 八角 2粒",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "麵粉",
+    "unit": "大匙",
+    "usage_count": 296,
+    "examples": "麵粉 2大匙 / 麵粉 2大匙 / 麵粉 2大匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "麻油",
+    "unit": "大匙",
+    "usage_count": 293,
+    "examples": "麻油 2大匙 / 麻油 1大匙 / 2.麻油 1大匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "月桂葉",
+    "unit": "片",
+    "usage_count": 293,
+    "examples": "月桂葉 2片 / 月桂葉 2片 / 月桂葉 2片",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "辣椒醬",
+    "unit": "大匙",
+    "usage_count": 291,
+    "examples": "辣椒醬 3大匙 / B.辣椒醬 1大匙 / 辣椒醬 1大匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "雞蛋",
+    "unit": "個",
+    "usage_count": 289,
+    "examples": "雞蛋 1/2個 / 雞蛋 1個 / 雞蛋 1個",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "蒜末",
+    "unit": "茶匙",
+    "usage_count": 284,
+    "examples": "蒜末 1/2茶匙 / 蒜末 1/2茶匙 / 蒜末 1茶匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "雞高湯",
+    "unit": "cc",
+    "usage_count": 280,
+    "examples": "A.雞高湯 400cc / 雞高湯 3000cc / 雞高湯 400㏄",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "魚露",
+    "unit": "大匙",
+    "usage_count": 273,
+    "examples": "魚露 1又1/2大匙 / 魚露 2大匙 / 魚露 2大匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "砂糖",
+    "unit": "小匙",
+    "usage_count": 268,
+    "examples": "砂糖 1小匙 / 砂糖 2小匙 / 砂糖 1小匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "蒜末",
+    "unit": "小匙",
+    "usage_count": 260,
+    "examples": "蒜末 1小匙 / 蒜末 2小匙 / 蒜末 2小匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "蛋黃",
+    "unit": "個",
+    "usage_count": 257,
+    "examples": "4.蛋黃 1個 / 蛋黃 1個 / 2.蛋黃 1個",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "胡蘿蔔",
+    "unit": "條",
+    "usage_count": 252,
+    "examples": "紅蘿蔔 半條 / 紅蘿蔔 1條 / 紅蘿蔔 1條",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "檸檬汁",
+    "unit": "cc",
+    "usage_count": 251,
+    "examples": "檸檬汁 10㏄ / 檸檬汁 6cc / 檸檬汁 8cc",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "辣豆瓣醬",
+    "unit": "大匙",
+    "usage_count": 245,
+    "examples": "辣豆瓣醬 1大匙 / 辣豆瓣醬 2大匙 / 辣豆瓣醬 3大匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "蛋黃",
+    "unit": "顆",
+    "usage_count": 243,
+    "examples": "蛋黃 1顆 / 蛋黃 一顆 / 蛋黃 1顆",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "細糖",
+    "unit": "大匙",
+    "usage_count": 226,
+    "examples": "細糖 1大匙 / 細糖 2大匙 / 細糖 1大匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "番茄",
+    "unit": "顆",
+    "usage_count": 226,
+    "examples": "蕃茄 1顆 / 蕃茄 2顆 / 蕃茄 2顆",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "烏醋",
+    "unit": "大匙",
+    "usage_count": 225,
+    "examples": "烏醋 1大匙 / 烏醋 2大匙 / 烏醋 1大匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "橄欖油",
+    "unit": "cc",
+    "usage_count": 225,
+    "examples": "橄欖油 30㏄ / 橄欖油 30㏄ / 橄欖油 15cc",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "砂糖",
+    "unit": "大匙",
+    "usage_count": 222,
+    "examples": "砂糖 1大匙 / 砂糖 1大匙 / 砂糖 2大匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "高湯",
+    "unit": "杯",
+    "usage_count": 220,
+    "examples": "高湯 4杯 / 高湯 3杯 / 高湯 杯",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "味精",
+    "unit": "茶匙",
+    "usage_count": 220,
+    "examples": "味精 1/8茶匙 / 味精 1/4茶匙 / 味精 1/4茶匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "咖哩粉",
+    "unit": "大匙",
+    "usage_count": 216,
+    "examples": "咖哩粉 1/2大匙 / 1.咖哩粉 1大匙 / 2.咖哩粉 1大匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "辣椒",
+    "unit": "支",
+    "usage_count": 210,
+    "examples": "辣椒 3支 / 辣椒 1支 / 辣椒 1支",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "紅棗",
+    "unit": "顆",
+    "usage_count": 206,
+    "examples": "紅棗 5-6顆 / 紅棗 12顆 / 紅棗 6顆",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "沙茶醬",
+    "unit": "大匙",
+    "usage_count": 204,
+    "examples": "沙茶醬 2大匙 / 沙茶醬 2大匙 / 沙茶醬 2大匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "白米",
+    "unit": "杯",
+    "usage_count": 198,
+    "examples": "白米 2杯 / 白米 2杯 / 白米 1杯",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "酒",
+    "unit": "cc",
+    "usage_count": 193,
+    "examples": "酒 90cc / 酒 100㏄ / 酒 15㏄",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "乾香菇",
+    "unit": "朵",
+    "usage_count": 192,
+    "examples": "乾香菇 2朵 / 乾香菇 5朵 / 乾香菇 5朵",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "白酒",
+    "unit": "cc",
+    "usage_count": 190,
+    "examples": "白酒 30㏄ / C.白酒 50c.c / 白酒 20cc",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "紹興酒",
+    "unit": "cc",
+    "usage_count": 188,
+    "examples": "紹興酒 70cc / 紹興酒 10㏄ / 紹興酒 10㏄",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "培根",
+    "unit": "片",
+    "usage_count": 187,
+    "examples": "培根 8片 / 培根 3∼4片 / 培根 2片",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "蠔油",
+    "unit": "小匙",
+    "usage_count": 183,
+    "examples": "蠔油 1小匙 / 蠔油 1小匙 / 蠔油 1小匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "番茄醬",
+    "unit": "大匙",
+    "usage_count": 183,
+    "examples": "番茄醬 5湯匙 / 番茄醬 1大匙 / 番茄醬 1大匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "板豆腐",
+    "unit": "塊",
+    "usage_count": 182,
+    "examples": "板豆腐 1/2塊 / 板豆腐 2小塊 / 板豆腐 1塊",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "烏醋",
+    "unit": "小匙",
+    "usage_count": 182,
+    "examples": "烏醋 1/2小匙 / 烏醋 1小匙 / 烏醋 1小匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "大蒜",
+    "unit": "瓣",
+    "usage_count": 179,
+    "examples": "大蒜 2瓣 / 大蒜 3瓣 / 大蒜 3瓣",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "油",
+    "unit": "大匙",
+    "usage_count": 177,
+    "examples": "油 2大匙 / 油 1大匙 / 油 2大匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "白醋",
+    "unit": "小匙",
+    "usage_count": 175,
+    "examples": "白醋 2小匙 / 白醋 1/2小匙 / 白醋 1小匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "蛋白",
+    "unit": "大匙",
+    "usage_count": 170,
+    "examples": "蛋白 1大匙 / 蛋白 1大匙 / 蛋白 1大匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "全蛋",
+    "unit": "顆",
+    "usage_count": 170,
+    "examples": "全蛋 1顆 / 全蛋 2顆 / 全蛋 1/2顆",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "蠔油",
+    "unit": "茶匙",
+    "usage_count": 169,
+    "examples": "蠔油 1茶匙 / 蠔油 1茶匙 / 蠔油 2茶匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "土司",
+    "unit": "片",
+    "usage_count": 167,
+    "examples": "土司 2片 / 土司 2片 / B.土司 2片",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "紅辣椒",
+    "unit": "支",
+    "usage_count": 165,
+    "examples": "紅辣椒 1支 / 紅辣椒 1支 / 紅辣椒 1支",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "紹興酒",
+    "unit": "大匙",
+    "usage_count": 165,
+    "examples": "紹興酒 2大匙 / 紹興酒 1大匙 / 紹興酒 2大匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "雞精粉",
+    "unit": "茶匙",
+    "usage_count": 163,
+    "examples": "雞精粉 1/4茶匙 / 雞精粉 1/4茶匙 / 雞精粉 1茶匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "番茄",
+    "unit": "個",
+    "usage_count": 162,
+    "examples": "蕃茄 1個 / 蕃茄 1個 / 蕃茄 2個",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "辣油",
+    "unit": "大匙",
+    "usage_count": 161,
+    "examples": "辣油 2大匙 / 辣油 1大匙 / 辣油 1大匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "五香粉",
+    "unit": "小匙",
+    "usage_count": 160,
+    "examples": "Ｂ.五香粉 1小匙 / 五香粉 1/2小匙 / 五香粉 1小匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "小番茄",
+    "unit": "顆",
+    "usage_count": 160,
+    "examples": "小番茄 4顆 / 小蕃茄 10顆 / 小蕃茄 5顆",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "洋蔥",
+    "unit": "粒",
+    "usage_count": 159,
+    "examples": "洋蔥 1/2粒 / 洋蔥 1/3粒 / 洋蔥 1/2粒",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "香油",
+    "unit": "cc",
+    "usage_count": 156,
+    "examples": "Ｂ.香油 5㏄ / 香油 15㏄ / 香油 5㏄",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "白醋",
+    "unit": "茶匙",
+    "usage_count": 154,
+    "examples": "白醋 2茶匙 / B.白醋 1茶匙 / B.白醋 1/2茶匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "紅甜椒",
+    "unit": "顆",
+    "usage_count": 153,
+    "examples": "紅甜椒 1顆 / 紅甜椒 1/2顆 / 紅甜椒 半顆",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "冷開水",
+    "unit": "cc",
+    "usage_count": 153,
+    "examples": "冷開水 30cc / 冷開水 120㏄ / 冷開水 150㏄",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "鮮雞粉",
+    "unit": "小匙",
+    "usage_count": 152,
+    "examples": "鮮雞粉 1/2小匙 / 鮮雞粉 1/4小匙 / 鮮雞粉 1/4小匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "涼開水",
+    "unit": "大匙",
+    "usage_count": 152,
+    "examples": "涼開水 1大匙 / 涼開水 1大匙 / 涼開水 2大匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "紅辣椒",
+    "unit": "條",
+    "usage_count": 149,
+    "examples": "紅辣椒 3條 / 紅辣椒 3條 / 紅辣椒 1/2條",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "馬鈴薯",
+    "unit": "顆",
+    "usage_count": 149,
+    "examples": "馬鈴薯 1顆 / 馬鈴薯 1顆 / 馬鈴薯 1顆",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "蘋果",
+    "unit": "顆",
+    "usage_count": 143,
+    "examples": "蘋果 1/2顆 / 蘋果 1顆 / B.蘋果 1顆",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "全蛋",
+    "unit": "個",
+    "usage_count": 141,
+    "examples": "全蛋 1個 / 全蛋 3個 / 全蛋 2個",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "水",
+    "unit": "碗",
+    "usage_count": 140,
+    "examples": "水 3碗 / 水 2/3碗 / 水 2碗",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "起司片",
+    "unit": "片",
+    "usage_count": 140,
+    "examples": "起司片 1片 / 起司片 2片 / 起司片 1片",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "味醂",
+    "unit": "小匙",
+    "usage_count": 140,
+    "examples": "味醂 1小匙 / 味醂 1小匙 / 味醂 1/2小匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "冰糖",
+    "unit": "小匙",
+    "usage_count": 140,
+    "examples": "冰糖 1/4小匙 / 冰糖 1小匙 / 冰糖 1小匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "白酒",
+    "unit": "大匙",
+    "usage_count": 139,
+    "examples": "白酒 1大匙 / 白酒 1大匙 / 白酒 1大匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "料理米酒",
+    "unit": "大匙",
+    "usage_count": 139,
+    "examples": "料理米酒 1大匙 / 料理米酒 1大匙 / 料理米酒 1大匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "醬油",
+    "unit": "杯",
+    "usage_count": 138,
+    "examples": "醬油 1杯 / 醬油 1杯 / 醬油 1/3杯",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "果糖",
+    "unit": "cc",
+    "usage_count": 136,
+    "examples": "果糖 15㏄ / 果糖 45cc / 果糖 20cc",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "檸檬",
+    "unit": "顆",
+    "usage_count": 135,
+    "examples": "檸檬 1顆 / 檸檬 1/4顆 / 檸檬 1/2顆",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "鮮奶油",
+    "unit": "cc",
+    "usage_count": 135,
+    "examples": "鮮奶油 30㏄ / 鮮奶油 30㏄ / 鮮奶油 20㏄",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "豆腐",
+    "unit": "塊",
+    "usage_count": 130,
+    "examples": "豆腐 1塊 / 豆腐 2小塊 / 豆腐 1塊",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "薑",
+    "unit": "塊",
+    "usage_count": 129,
+    "examples": "薑 1塊 / 薑 2小塊 / 薑 1小塊",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "酒",
+    "unit": "小匙",
+    "usage_count": 127,
+    "examples": "酒 1小匙 / 酒 1小匙 / 酒 1小匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "蛋白",
+    "unit": "顆",
+    "usage_count": 127,
+    "examples": "蛋白 1顆 / 蛋白 1/2顆 / 蛋白 1顆",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "薑",
+    "unit": "小匙",
+    "usage_count": 126,
+    "examples": "薑末 1小匙 / 薑末 2小匙 / 薑末 1小匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "薑",
+    "unit": "大匙",
+    "usage_count": 126,
+    "examples": "薑絲 1大匙 / 薑絲 1大匙 / 薑絲 1大匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "海苔片",
+    "unit": "片",
+    "usage_count": 126,
+    "examples": "海苔片 3/4片 / 海苔片 2片 / 海苔片 大1片",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "雞精粉",
+    "unit": "小匙",
+    "usage_count": 125,
+    "examples": "雞精粉 1小匙 / 雞精粉 1小匙 / 雞精粉 1/2小匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "青椒",
+    "unit": "個",
+    "usage_count": 120,
+    "examples": "青椒 1個 / 青椒 1個 / 青椒 1/4個",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "薑",
+    "unit": "茶匙",
+    "usage_count": 120,
+    "examples": "薑末 1/2茶匙 / 薑末 1茶匙 / 薑末 1/4茶匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "蜂蜜",
+    "unit": "大匙",
+    "usage_count": 119,
+    "examples": "蜂蜜 1大匙 / 蜂蜜 3大匙 / 蜂蜜 1/2大匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "地瓜粉",
+    "unit": "大匙",
+    "usage_count": 118,
+    "examples": "地瓜粉 1大匙 / 地瓜粉 1大匙 / 地瓜粉 1大匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "雞腿",
+    "unit": "隻",
+    "usage_count": 118,
+    "examples": "雞腿 1隻 / 雞腿 三隻 / 雞腿 2隻",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "黑胡椒粉",
+    "unit": "茶匙",
+    "usage_count": 117,
+    "examples": "黑胡椒粉 1/4茶匙 / 黑胡椒粉 1/4茶匙 / 黑胡椒粉 1/2茶匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "酒",
+    "unit": "茶匙",
+    "usage_count": 117,
+    "examples": "酒 1/2茶匙 / 酒 1茶匙 / 酒 1茶匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "熱水",
+    "unit": "cc",
+    "usage_count": 115,
+    "examples": "熱水 50㏄ / 熱水 120cc / 熱水 700㏄",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "檸檬",
+    "unit": "個",
+    "usage_count": 114,
+    "examples": "檸檬 1個 / 檸檬 1/4個 / 檸檬 1個",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "低筋麵粉",
+    "unit": "大匙",
+    "usage_count": 113,
+    "examples": "低筋麵粉 1大匙 / 低筋麵粉 4大匙 / B.低筋麵粉 1大匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "玉米粉",
+    "unit": "大匙",
+    "usage_count": 111,
+    "examples": "玉米粉水 2大匙 / 玉米粉 1大匙 / 玉米粉 2大匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "辣油",
+    "unit": "小匙",
+    "usage_count": 110,
+    "examples": "辣油 1小匙 / 辣油 1小匙 / 辣油 1小匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "動物性鮮奶油",
+    "unit": "cc",
+    "usage_count": 110,
+    "examples": "動物性鮮奶油 50CC / 動物性鮮奶油 50㏄ / 動物性鮮奶油 20cc",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "泡打粉",
+    "unit": "小匙",
+    "usage_count": 110,
+    "examples": "泡打粉 1小匙 / 泡打粉 1小匙 / 泡打粉 1小匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "香菜",
+    "unit": "根",
+    "usage_count": 109,
+    "examples": "香菜 2根 / 香菜 1根 / 香菜 1根",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "米酒",
+    "unit": "杯",
+    "usage_count": 108,
+    "examples": "米酒 1杯 / 米酒 1杯 / 米酒 2杯",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "蒜仁",
+    "unit": "粒",
+    "usage_count": 107,
+    "examples": "蒜仁 3粒 / 蒜仁 6粒 / 蒜仁 4粒",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "白醋",
+    "unit": "cc",
+    "usage_count": 107,
+    "examples": "白醋 50cc / 白醋 25㏄ / 白醋 5㏄",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "芝麻醬",
+    "unit": "大匙",
+    "usage_count": 106,
+    "examples": "芝麻醬 1大匙 / 芝麻醬 1大匙 / 芝麻醬 1大匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "鮮蝦",
+    "unit": "尾",
+    "usage_count": 106,
+    "examples": "鮮蝦 1尾 / 鮮蝦 3尾 / 鮮蝦 6尾",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "馬鈴薯",
+    "unit": "個",
+    "usage_count": 105,
+    "examples": "2.馬鈴薯 1個 / 馬鈴薯 1個 / 馬鈴薯 1個",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "芹菜",
+    "unit": "支",
+    "usage_count": 105,
+    "examples": "芹菜 1支 / 芹菜 5支 / 芹菜 2支",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "五香粉",
+    "unit": "茶匙",
+    "usage_count": 104,
+    "examples": "五香粉 1/8茶匙 / 五香粉 1/4茶匙 / 五香粉 1/2茶匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "蒜泥",
+    "unit": "大匙",
+    "usage_count": 103,
+    "examples": "蒜泥 2大匙 / 蒜泥 1大匙 / 蒜泥 2大匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "美乃滋",
+    "unit": "大匙",
+    "usage_count": 103,
+    "examples": "美乃滋 2大匙 / 美乃滋 2大匙 / 1.美乃滋 3大匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "冷水",
+    "unit": "cc",
+    "usage_count": 101,
+    "examples": "冷水 1200cc / 冷水 1200cc / 冷水 200㏄",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "橄欖油",
+    "unit": "小匙",
+    "usage_count": 100,
+    "examples": "橄欖油 1小匙 / 橄欖油 1/2小匙 / 橄欖油 1小匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "高湯",
+    "unit": "大匙",
+    "usage_count": 99,
+    "examples": "高湯 3大匙 / 高湯 1大匙 / 高湯 1大匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "胡麻油",
+    "unit": "大匙",
+    "usage_count": 99,
+    "examples": "胡麻油 1大匙 / 胡麻油 1大匙 / 胡麻油 2大匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "紅酒",
+    "unit": "cc",
+    "usage_count": 98,
+    "examples": "紅酒 50cc / 2.紅酒 300㏄ / 紅酒 10cc",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "椰奶",
+    "unit": "cc",
+    "usage_count": 98,
+    "examples": "椰奶 200c.c / 椰奶 200cc / 椰奶 200㏄",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "蔥",
+    "unit": "茶匙",
+    "usage_count": 96,
+    "examples": "蔥花 1茶匙 / 蔥花 1又1/2茶匙盤即可。 / 蔥花 1/茶匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "素蠔油",
+    "unit": "大匙",
+    "usage_count": 95,
+    "examples": "素蠔油 2大匙 / 素蠔油 3+1/2大匙 / 素蠔油 1/2大匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "草蝦",
+    "unit": "尾",
+    "usage_count": 95,
+    "examples": "草蝦 2尾 / 草蝦 3尾 / 草蝦 3尾",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "檸檬汁",
+    "unit": "小匙",
+    "usage_count": 94,
+    "examples": "檸檬汁 1小匙 / 檸檬汁 1小匙 / 檸檬汁 1小匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "美生菜",
+    "unit": "片",
+    "usage_count": 94,
+    "examples": "Ｃ.美生菜 1片 / 美生菜 1片 / 美生菜 1片",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "紹興酒",
+    "unit": "茶匙",
+    "usage_count": 92,
+    "examples": "紹興酒 1茶匙 / 紹興酒 1/2茶匙 / 紹興酒 1/2茶匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "薑",
+    "unit": "段",
+    "usage_count": 92,
+    "examples": "薑 1/2小段 / 薑 1小段 / 薑片 1小段",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "黃甜椒",
+    "unit": "顆",
+    "usage_count": 91,
+    "examples": "黃甜椒 1顆 / 黃甜椒 1/2顆 / 黃甜椒 半顆",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "低筋麵粉",
+    "unit": "杯",
+    "usage_count": 91,
+    "examples": "低筋麵粉 2杯 / 低筋麵粉 1又1/2杯 / 低筋麵粉 1/2杯",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "豆瓣醬",
+    "unit": "大匙",
+    "usage_count": 91,
+    "examples": "豆瓣醬 4大匙 / A.豆瓣醬 1大匙 / 豆瓣醬 2大匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "奶水",
+    "unit": "cc",
+    "usage_count": 91,
+    "examples": "奶水 30㏄ / 奶水 200㏄ / 奶水 50㏄",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "當歸",
+    "unit": "片",
+    "usage_count": 91,
+    "examples": "當歸 3片 / 當歸 2片 / 當歸 1∼2片",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "紅棗",
+    "unit": "粒",
+    "usage_count": 91,
+    "examples": "紅棗 8粒 / 紅棗 6粒 / 紅棗 5粒",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "蛤蜊",
+    "unit": "顆",
+    "usage_count": 91,
+    "examples": "蛤蜊 5顆 / 蛤蜊 10顆 / 蛤蜊 3顆",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "洋蔥末",
+    "unit": "大匙",
+    "usage_count": 89,
+    "examples": "洋蔥末 2大匙 / 洋蔥末 2大匙 / 洋蔥末 3大匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "魚露",
+    "unit": "小匙",
+    "usage_count": 89,
+    "examples": "魚露 1小匙 / 魚露 2小匙 / 魚露 1小匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "蒜苗",
+    "unit": "支",
+    "usage_count": 89,
+    "examples": "蒜苗 1支 / 蒜苗 2支 / 蒜苗 1支",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "開水",
+    "unit": "cc",
+    "usage_count": 89,
+    "examples": "開水 400㏄ / 開水 200㏄ / 開水 250CC",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "果糖",
+    "unit": "大匙",
+    "usage_count": 88,
+    "examples": "果糖 1又1/2大匙 / 果糖 1/2大匙 / 果糖 1/2大匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "甜麵醬",
+    "unit": "大匙",
+    "usage_count": 87,
+    "examples": "甜麵醬 1又1/2大匙 / 甜麵醬 2大匙 / 甜麵醬 3大匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "鮮奶油",
+    "unit": "大匙",
+    "usage_count": 87,
+    "examples": "鮮奶油 3大匙 / 鮮奶油 1大匙 / 5.鮮奶油 1大匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "蝦仁",
+    "unit": "尾",
+    "usage_count": 87,
+    "examples": "蝦仁 5尾 / 蝦仁 3尾 / 蝦仁 6尾",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "蔥",
+    "unit": "小匙",
+    "usage_count": 85,
+    "examples": "1.蔥末 1小匙 / 蔥花 1小匙 / 蔥花 1小匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "八角",
+    "unit": "顆",
+    "usage_count": 85,
+    "examples": "八角 2顆 / 八角 4顆 / 八角 3顆",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "火腿",
+    "unit": "片",
+    "usage_count": 84,
+    "examples": "火腿 2片 / 火腿 1片 / 火腿 6片",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "蘋果",
+    "unit": "個",
+    "usage_count": 84,
+    "examples": "蘋果 1/3個 / 蘋果 1個 / 蘋果 2個",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "糖",
+    "unit": "杯",
+    "usage_count": 83,
+    "examples": "糖 1/4杯 / 糖 1又1/2大杯 / 糖 1/2杯",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "花椒粉",
+    "unit": "茶匙",
+    "usage_count": 82,
+    "examples": "花椒粉 1/4茶匙 / 花椒粉 1/4茶匙 / 花椒粉 1/2茶匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "奶油",
+    "unit": "小匙",
+    "usage_count": 81,
+    "examples": "奶油 1小匙 / B.奶油 1小匙 / 奶油 1小匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "蒜苗",
+    "unit": "根",
+    "usage_count": 81,
+    "examples": "蒜苗 1根 / 蒜苗 1根 / 蒜苗 1根",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "美奶滋",
+    "unit": "大匙",
+    "usage_count": 81,
+    "examples": "美奶滋 2大匙 / 美奶滋 1大匙 / 美奶滋 1大匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "枸杞",
+    "unit": "大匙",
+    "usage_count": 80,
+    "examples": "枸杞 1大匙 / 枸杞 1大匙 / 枸杞 1大匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "味噌",
+    "unit": "大匙",
+    "usage_count": 80,
+    "examples": "味噌 2大匙 / 味噌 2大匙 / 味噌 3大匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "甘草",
+    "unit": "片",
+    "usage_count": 80,
+    "examples": "甘草 2片 / 甘草 2片 / 甘草 2片",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "沙拉醬",
+    "unit": "大匙",
+    "usage_count": 80,
+    "examples": "沙拉醬 2大匙 / 沙拉醬 1大匙 / 沙拉醬 2大匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "青椒",
+    "unit": "顆",
+    "usage_count": 79,
+    "examples": "青椒 1/2顆 / 青椒 1顆 / 青椒 1/2顆",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "鹽",
+    "unit": "匙",
+    "usage_count": 79,
+    "examples": "鹽 1/4匙 / 鹽 1/4匙 / 鹽 1/4匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "麻油",
+    "unit": "小匙",
+    "usage_count": 79,
+    "examples": "麻油 1小匙 / 麻油 1小匙 / 麻油 1小匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "豬油",
+    "unit": "大匙",
+    "usage_count": 79,
+    "examples": "豬油 1大匙 / 豬油 1大匙 / 豬油 1大匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "白蝦",
+    "unit": "尾",
+    "usage_count": 79,
+    "examples": "白蝦 12尾 / 白蝦 3尾 / 白蝦 10尾",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "皮蛋",
+    "unit": "顆",
+    "usage_count": 79,
+    "examples": "B.皮蛋 1顆 / 皮蛋 1顆 / 皮蛋 1顆",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "雞胸肉",
+    "unit": "片",
+    "usage_count": 79,
+    "examples": "雞胸肉 1片 / 雞胸肉 1片 / 雞胸肉 1片",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "大白菜",
+    "unit": "顆",
+    "usage_count": 78,
+    "examples": "大白菜 1顆 / 大白菜 1顆 / 大白菜 1/2顆",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "金針菇",
+    "unit": "把",
+    "usage_count": 78,
+    "examples": "金針菇 1把 / 金針菇 1把 / 金針菇 1把",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "料酒",
+    "unit": "茶匙",
+    "usage_count": 78,
+    "examples": "料酒 1茶匙 / 料酒 1茶匙 / 料酒 1茶匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "辣椒醬",
+    "unit": "小匙",
+    "usage_count": 78,
+    "examples": "辣椒醬 1小匙 / 辣椒醬 1小匙 / 辣椒醬 2小匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "魚板",
+    "unit": "片",
+    "usage_count": 77,
+    "examples": "3.魚板 2片 / 魚板 3片 / 魚板 2片",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "開水",
+    "unit": "大匙",
+    "usage_count": 77,
+    "examples": "開水 1大匙 / 開水 1大匙 / 開水 3大匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "米",
+    "unit": "杯",
+    "usage_count": 77,
+    "examples": "米 1杯 / 米 2杯 / 米 3杯",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "冷開水",
+    "unit": "大匙",
+    "usage_count": 77,
+    "examples": "冷開水 1大匙 / 冷開水 2大匙 / 冷開水 2大匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "涼開水",
+    "unit": "cc",
+    "usage_count": 77,
+    "examples": "涼開水 40㏄ / 涼開水 15㏄ / 涼開水 30㏄",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "蘆筍",
+    "unit": "支",
+    "usage_count": 76,
+    "examples": "蘆筍 2支 / 蘆筍 6支 / 蘆筍 2支",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "水",
+    "unit": "小匙",
+    "usage_count": 75,
+    "examples": "水 1小匙 / 水 1小匙 / 水 2小匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "冬粉",
+    "unit": "把",
+    "usage_count": 75,
+    "examples": "冬粉 1把 / 冬粉 1把 / 冬粉 3把",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "辣椒粉",
+    "unit": "小匙",
+    "usage_count": 75,
+    "examples": "辣椒粉 1小匙 / 辣椒粉 2小匙 / 辣椒粉 1小匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "蕃茄片",
+    "unit": "片",
+    "usage_count": 75,
+    "examples": "蕃茄片 2片 / 蕃茄片 3片 / 蕃茄片 3片",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "油",
+    "unit": "cc",
+    "usage_count": 75,
+    "examples": "A.油 30㏄ / 油 15㏄ / 油 20㏄",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "紅甜椒",
+    "unit": "個",
+    "usage_count": 75,
+    "examples": "紅甜椒 1個 / 紅甜椒 1/2個 / 紅甜椒 1/2個",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "香菜",
+    "unit": "支",
+    "usage_count": 75,
+    "examples": "香菜 1支 / 香菜 2支 / 香菜 3支",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "柴魚高湯",
+    "unit": "cc",
+    "usage_count": 75,
+    "examples": "柴魚高湯 50㏄ / 柴魚高湯 500㏄ / 柴魚高湯 400㏄",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "嫩豆腐",
+    "unit": "盒",
+    "usage_count": 74,
+    "examples": "嫩豆腐 1盒 / 嫩豆腐 1/2盒 / 嫩豆腐 1盒",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "香菇精",
+    "unit": "小匙",
+    "usage_count": 74,
+    "examples": "香菇精 1小匙 / 香菇精 1/2小匙 / 香菇精 1/2小匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "香蕉",
+    "unit": "根",
+    "usage_count": 74,
+    "examples": "香蕉 1根 / 香蕉 1根 / 香蕉 1根",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "蜂蜜",
+    "unit": "cc",
+    "usage_count": 74,
+    "examples": "B.蜂蜜 20㏄ / 蜂蜜 60cc / 蜂蜜 50㏄",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "苦瓜",
+    "unit": "條",
+    "usage_count": 73,
+    "examples": "苦瓜 1/2條 / 苦瓜 1條 / 苦瓜 1/2條",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "小蘇打",
+    "unit": "茶匙",
+    "usage_count": 73,
+    "examples": "小蘇打 1/8茶匙 / 小蘇打 1/8茶匙 / 小蘇打 1/8茶匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "蛋液",
+    "unit": "大匙",
+    "usage_count": 73,
+    "examples": "蛋液 1大匙 / 蛋液 1大匙 / 蛋液 1大匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "醬油膏",
+    "unit": "小匙",
+    "usage_count": 73,
+    "examples": "醬油膏 1小匙 / 醬油膏 3小匙 / 醬油膏 1小匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "麵粉",
+    "unit": "杯",
+    "usage_count": 73,
+    "examples": "麵粉 1杯 / 麵粉 1/2杯 / 麵粉 1/2杯",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "醋",
+    "unit": "大匙",
+    "usage_count": 72,
+    "examples": "醋 2大匙 / 醋 1大匙 / 醋 3大匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "蒜泥",
+    "unit": "小匙",
+    "usage_count": 72,
+    "examples": "蒜泥 1小匙 / 蒜泥 1/2小匙 / 蒜泥 2小匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "蛋液",
+    "unit": "顆",
+    "usage_count": 72,
+    "examples": "蛋液 1顆 / 蛋液 1顆 / 蛋液 1顆",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "新鮮香菇",
+    "unit": "朵",
+    "usage_count": 71,
+    "examples": "新鮮香菇 1朵 / 新鮮香菇 4朵 / 新鮮香菇 4朵",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "雞腿",
+    "unit": "支",
+    "usage_count": 71,
+    "examples": "雞腿 1支 / 雞腿 2支 / 雞腿 1支",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "大蒜",
+    "unit": "個",
+    "usage_count": 71,
+    "examples": "蒜頭 6個 / 蒜頭 4個 / 大蒜 3個",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "紅蔥頭",
+    "unit": "粒",
+    "usage_count": 71,
+    "examples": "紅蔥頭 4粒 / 紅蔥頭 1粒 / 紅蔥頭 10粒",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "無鹽奶油",
+    "unit": "大匙",
+    "usage_count": 70,
+    "examples": "無鹽奶油 2大匙 / 無鹽奶油 1大匙 / 無鹽奶油 1大匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "黑醋",
+    "unit": "大匙",
+    "usage_count": 70,
+    "examples": "黑醋 1大匙 / 黑醋 1大匙 / 黑醋 2大匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "味精",
+    "unit": "小匙",
+    "usage_count": 70,
+    "examples": "味精 1小匙 / 味精 2小匙 / 味精 1/4小匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "白砂糖",
+    "unit": "小匙",
+    "usage_count": 69,
+    "examples": "白砂糖 1/4小匙 / 白砂糖 1/2小匙 / 白砂糖 1/2小匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "柳橙汁",
+    "unit": "cc",
+    "usage_count": 68,
+    "examples": "柳橙汁 60㏄ / 柳橙汁 25㏄ / 柳橙汁 300㏄",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "蝦米",
+    "unit": "大匙",
+    "usage_count": 68,
+    "examples": "蝦米 4大匙 / 蝦米 1大匙 / 蝦米 1大匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "椰漿",
+    "unit": "cc",
+    "usage_count": 68,
+    "examples": "椰漿 20㏄ / 椰漿 100㏄ / 椰漿 50cc",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "辣椒末",
+    "unit": "小匙",
+    "usage_count": 68,
+    "examples": "辣椒末 1小匙 / 辣椒末 1小匙 / 辣椒末 1小匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "牛高湯",
+    "unit": "cc",
+    "usage_count": 67,
+    "examples": "C.牛高湯 500c.c / 牛高湯 1600c.c / 牛高湯 1500c.c",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "草果",
+    "unit": "顆",
+    "usage_count": 67,
+    "examples": "草果 3顆 / 草果 2顆 / B.草果 1顆",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "熱開水",
+    "unit": "cc",
+    "usage_count": 67,
+    "examples": "熱開水 1300㏄ / 熱開水 900㏄ / 熱開水 500㏄",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "鮮蝦",
+    "unit": "隻",
+    "usage_count": 67,
+    "examples": "鮮蝦 6隻 / 鮮蝦 4隻 / 鮮蝦 4隻",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "黑胡椒粉",
+    "unit": "小匙",
+    "usage_count": 66,
+    "examples": "黑胡椒粉 1小匙 / 黑胡椒粉 1小匙 / 黑胡椒粉 1小匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "油",
+    "unit": "小匙",
+    "usage_count": 66,
+    "examples": "油 1小匙 / 油 1小匙 / 油 1小匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "白胡椒",
+    "unit": "小匙",
+    "usage_count": 66,
+    "examples": "白胡椒 1/2小匙 / 白胡椒 1小匙 / 白胡椒 1/4小匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "鯛魚片",
+    "unit": "片",
+    "usage_count": 66,
+    "examples": "鯛魚片 1片 / 鯛魚片 1片 / 3.鯛魚片 2片",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "辣椒粉",
+    "unit": "大匙",
+    "usage_count": 65,
+    "examples": "辣椒粉 1大匙 / 辣椒粉 2/3大匙 / A.辣椒粉 1大匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "沙拉油",
+    "unit": "小匙",
+    "usage_count": 65,
+    "examples": "沙拉油 2小匙 / 沙拉油 2小匙 / 沙拉油 2小匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "奇異果",
+    "unit": "顆",
+    "usage_count": 65,
+    "examples": "奇異果 10顆 / 奇異果 1顆 / 奇異果 1顆",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "水煮蛋",
+    "unit": "顆",
+    "usage_count": 65,
+    "examples": "水煮蛋 1/2顆 / 水煮蛋 1顆 / 水煮蛋 1/2顆",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "地瓜粉",
+    "unit": "杯",
+    "usage_count": 65,
+    "examples": "地瓜粉 1杯 / 3.地瓜粉 1/3杯 / 地瓜粉 1/3杯",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "草莓",
+    "unit": "顆",
+    "usage_count": 65,
+    "examples": "草莓 1顆 / 草莓 2∼3顆 / 草莓 3顆",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "海苔",
+    "unit": "片",
+    "usage_count": 64,
+    "examples": "海苔 2片 / 海苔 1片 / 海苔 1片",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "火腿片",
+    "unit": "片",
+    "usage_count": 63,
+    "examples": "火腿片 1片 / 火腿片 2片 / 火腿片 1片",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "淡色醬油",
+    "unit": "大匙",
+    "usage_count": 62,
+    "examples": "淡色醬油 1大匙 / 淡色醬油 2大匙 / 淡色醬油 2大匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "芹菜",
+    "unit": "根",
+    "usage_count": 62,
+    "examples": "芹菜 3根 / 芹菜 2根 / 芹菜 2根",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "市售高湯",
+    "unit": "cc",
+    "usage_count": 62,
+    "examples": "市售高湯 600㏄ / 市售高湯 300㏄ / 市售高湯 400㏄",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "紅蔥頭",
+    "unit": "顆",
+    "usage_count": 61,
+    "examples": "紅蔥頭 1顆 / 紅蔥頭 5顆 / 紅蔥頭 5顆",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "西芹",
+    "unit": "根",
+    "usage_count": 61,
+    "examples": "西芹 1根 / 西芹 2根 / 西芹 2根",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "嫩豆腐",
+    "unit": "塊",
+    "usage_count": 61,
+    "examples": "嫩豆腐 1塊 / 嫩豆腐 1/2塊 / 嫩豆腐 1塊",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "鮮美露",
+    "unit": "大匙",
+    "usage_count": 61,
+    "examples": "鮮美露 2大匙 / 鮮美露 1大匙 / 鮮美露 1又1/2大匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "太白粉",
+    "unit": "杯",
+    "usage_count": 60,
+    "examples": "3.太白粉水 1/2杯 / 2.太白粉水 1/2杯 / 太白粉水 1/2杯",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "龜甲萬料亭和露",
+    "unit": "大匙",
+    "usage_count": 59,
+    "examples": "A.龜甲萬料亭和露 2大匙 / 龜甲萬料亭和露 5大匙 / A.龜甲萬料亭和露 1大匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "冰水",
+    "unit": "cc",
+    "usage_count": 59,
+    "examples": "冰水 150㏄ / B.冰水 150cc / 冰水 150cc",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "蠔油",
+    "unit": "cc",
+    "usage_count": 58,
+    "examples": "蠔油 10㏄ / 蠔油 60㏄ / 蠔油 55cc",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "胡椒",
+    "unit": "小匙",
+    "usage_count": 58,
+    "examples": "胡椒 1小匙 / 胡椒 1小匙 / 胡椒 1小匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "蝦仁",
+    "unit": "隻",
+    "usage_count": 58,
+    "examples": "蝦仁 6隻 / 蝦仁 2隻 / 蝦仁 4隻",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "白胡椒粉",
+    "unit": "大匙",
+    "usage_count": 57,
+    "examples": "白胡椒粉 1大匙 / 白胡椒粉 1/3大匙 / 白胡椒粉 1大匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "黃豆醬",
+    "unit": "大匙",
+    "usage_count": 57,
+    "examples": "黃豆醬 1大匙 / 黃豆醬 1大匙 / 黃豆醬 2大匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "雞翅",
+    "unit": "隻",
+    "usage_count": 57,
+    "examples": "雞翅 10隻 / 雞翅 2隻 / 雞翅 20隻",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "白芝麻",
+    "unit": "大匙",
+    "usage_count": 56,
+    "examples": "白芝麻 2大匙 / 3.白芝麻 1大匙 / 白芝麻 1大匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "魚露",
+    "unit": "茶匙",
+    "usage_count": 56,
+    "examples": "魚露 1茶匙 / 魚露 1茶匙 / 魚露 1茶匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "橄欖油",
+    "unit": "茶匙",
+    "usage_count": 56,
+    "examples": "橄欖油 1/2茶匙 / 橄欖油 1/2茶匙 / 橄欖油 1/2茶匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "青江菜",
+    "unit": "棵",
+    "usage_count": 55,
+    "examples": "青江菜 6棵 / 青江菜 2棵 / 青江菜 6棵",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "咖哩粉",
+    "unit": "茶匙",
+    "usage_count": 54,
+    "examples": "咖哩粉 1/4茶匙 / 咖哩粉 1茶匙 / 咖哩粉 1/2茶匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "小黃瓜",
+    "unit": "根",
+    "usage_count": 54,
+    "examples": "小黃瓜 1/2根 / 小黃瓜 1根 / 小黃瓜 1/3根",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "冰塊",
+    "unit": "杯",
+    "usage_count": 54,
+    "examples": "冰塊 1杯 / 冰塊 1杯 / B.冰塊 1又1/2杯",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "料理米酒",
+    "unit": "cc",
+    "usage_count": 53,
+    "examples": "料理米酒 50㏄ / 料理米酒 10㏄ / 料理米酒 10㏄",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "蒜泥",
+    "unit": "茶匙",
+    "usage_count": 53,
+    "examples": "蒜泥 1/2茶匙 / 蒜泥 1茶匙 / 蒜泥 1茶匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "竹籤",
+    "unit": "支",
+    "usage_count": 53,
+    "examples": "E.竹籤 2支 / 竹籤 2支 / 竹籤 2支",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "糖",
+    "unit": "匙",
+    "usage_count": 53,
+    "examples": "糖 1/4匙 / 糖 1/2匙 / 糖 1/2匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "蔥",
+    "unit": "枝",
+    "usage_count": 53,
+    "examples": "蔥段 5枝 / 青蔥 2枝 / 青蔥 1枝",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "牛番茄",
+    "unit": "顆",
+    "usage_count": 53,
+    "examples": "牛蕃茄 1顆 / 牛蕃茄 1顆 / 牛蕃茄 3顆",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "魚露",
+    "unit": "cc",
+    "usage_count": 53,
+    "examples": "魚露 6cc / 魚露 10cc / 魚露 15cc",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "蒜末",
+    "unit": "粒",
+    "usage_count": 53,
+    "examples": "蒜末 2粒 / 蒜末 8粒 / 蒜末 10粒",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "黑胡椒",
+    "unit": "小匙",
+    "usage_count": 53,
+    "examples": "黑胡椒 1/2小匙 / 黑胡椒 1/4小匙 / 黑胡椒 1/4小匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "肉桂粉",
+    "unit": "小匙",
+    "usage_count": 53,
+    "examples": "肉桂粉 1小匙 / 肉桂粉 1/4小匙 / 肉桂粉 1小匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "蘆筍",
+    "unit": "根",
+    "usage_count": 53,
+    "examples": "蘆筍 1根 / 蘆筍 6根 / 蘆筍 4根",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "草蝦",
+    "unit": "隻",
+    "usage_count": 53,
+    "examples": "草蝦 2隻 / 1.草蝦 6隻 / 1.草蝦 10隻",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "高麗菜",
+    "unit": "顆",
+    "usage_count": 52,
+    "examples": "1.高麗菜 1/6顆 / B.高麗菜 1/4顆 / 高麗菜 1/4顆",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "白砂糖",
+    "unit": "大匙",
+    "usage_count": 52,
+    "examples": "白砂糖 1大匙 / 白砂糖 1大匙 / 白砂糖 3大匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "嫩精",
+    "unit": "茶匙",
+    "usage_count": 52,
+    "examples": "嫩精 1/4茶匙 / 嫩精 1/4茶匙 / A.嫩精 1/4茶匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "辣豆瓣",
+    "unit": "大匙",
+    "usage_count": 52,
+    "examples": "辣豆瓣 4大匙 / 辣豆瓣 1大匙 / 辣豆瓣 1大匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "沙拉油",
+    "unit": "茶匙",
+    "usage_count": 52,
+    "examples": "沙拉油 1茶匙 / 沙拉油 1茶匙 / 沙拉油 1茶匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "溫水",
+    "unit": "cc",
+    "usage_count": 52,
+    "examples": "溫水 170㏄ / 溫水 50㏄ / 溫水 10㏄",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "透抽",
+    "unit": "尾",
+    "usage_count": 52,
+    "examples": "透抽 1/2尾 / 透抽 2尾 / 透抽 1尾",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "細糖",
+    "unit": "小匙",
+    "usage_count": 51,
+    "examples": "細糖 1/2小匙 / 細糖 1/2小匙 / 細糖 1小匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "雞粉",
+    "unit": "大匙",
+    "usage_count": 51,
+    "examples": "雞粉 2大匙 / 雞粉 1大匙 / 雞粉 1/2大匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "檸檬葉",
+    "unit": "片",
+    "usage_count": 51,
+    "examples": "檸檬葉 3片 / 檸檬葉 4片 / 檸檬葉 1片",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "檸檬汁",
+    "unit": "茶匙",
+    "usage_count": 51,
+    "examples": "檸檬汁 1茶匙 / 檸檬汁 3茶匙 / 檸檬汁 1茶匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "青蔥段",
+    "unit": "支",
+    "usage_count": 51,
+    "examples": "青蔥段 4支 / 青蔥段 4支 / 青蔥段 1支",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "鮮美露",
+    "unit": "cc",
+    "usage_count": 51,
+    "examples": "B.鮮美露 18㏄ / 鮮美露 50㏄ / 鮮美露 30㏄",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "玉米筍",
+    "unit": "支",
+    "usage_count": 51,
+    "examples": "玉米筍 2支 / 玉米筍 3支 / 玉米筍 3支",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "黑胡椒粒",
+    "unit": "茶匙",
+    "usage_count": 51,
+    "examples": "黑胡椒粒 1/4茶匙 / 黑胡椒粒 1/2茶匙 / 黑胡椒粒 1/4茶匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "盒裝豆腐",
+    "unit": "盒",
+    "usage_count": 51,
+    "examples": "盒裝豆腐 1盒 / 盒裝豆腐 1/2盒 / 盒裝豆腐 1盒",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "料酒",
+    "unit": "大匙",
+    "usage_count": 51,
+    "examples": "料酒 1大匙 / 料酒 1大匙 / A.料酒 1大匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "白芝麻",
+    "unit": "小匙",
+    "usage_count": 50,
+    "examples": "白芝麻 1小匙 / 白芝麻 1小匙 / 白芝麻 1小匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "蕃茄醬",
+    "unit": "小匙",
+    "usage_count": 50,
+    "examples": "蕃茄醬 1小匙 / 蕃茄醬 1小匙 / 蕃茄醬 1/2小匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "草果",
+    "unit": "粒",
+    "usage_count": 50,
+    "examples": "草果 2粒 / 草果 3粒 / 草果 2粒",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "牛頭牌紅蔥肉燥",
+    "unit": "大匙",
+    "usage_count": 50,
+    "examples": "B.牛頭牌紅蔥肉燥 3大匙 / 牛頭牌紅蔥肉燥 1大匙 / 牛頭牌紅蔥肉燥 2大匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "醋",
+    "unit": "小匙",
+    "usage_count": 49,
+    "examples": "醋 1小匙 / 醋 1小匙 / 醋 1小匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "椰奶",
+    "unit": "大匙",
+    "usage_count": 49,
+    "examples": "椰奶 1大匙 / 椰奶 4大匙 / 椰奶 5大匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "黑胡椒粗粉",
+    "unit": "茶匙",
+    "usage_count": 49,
+    "examples": "黑胡椒粗粉 1茶匙 / 黑胡椒粗粉 1茶匙 / 黑胡椒粗粉 1/2茶匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "洋蔥絲",
+    "unit": "顆",
+    "usage_count": 49,
+    "examples": "洋蔥絲 1/2顆 / 洋蔥絲 1顆 / 洋蔥絲 1/2顆",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "去骨雞腿",
+    "unit": "支",
+    "usage_count": 49,
+    "examples": "去骨雞腿 2支 / 去骨雞腿 1支 / 去骨雞腿 1支",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "太白粉",
+    "unit": "cc",
+    "usage_count": 48,
+    "examples": "太白粉水 10㏄ / C.太白粉水 5㏄ / 太白粉水 10㏄",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "辣豆瓣醬",
+    "unit": "小匙",
+    "usage_count": 48,
+    "examples": "辣豆瓣醬 1小匙 / 辣豆瓣醬 1小匙 / 辣豆瓣醬 1小匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "蒜片",
+    "unit": "粒",
+    "usage_count": 48,
+    "examples": "蒜片 2粒 / 蒜片 3粒 / 蒜片 3粒",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "大骨高湯",
+    "unit": "cc",
+    "usage_count": 48,
+    "examples": "A.大骨高湯 400㏄ / A.大骨高湯 200㏄ / 大骨高湯 480cc",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "鮮奶",
+    "unit": "大匙",
+    "usage_count": 48,
+    "examples": "鮮奶 4大匙 / 鮮奶 4大匙 / B.鮮奶 3大匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "香菜末",
+    "unit": "大匙",
+    "usage_count": 47,
+    "examples": "香菜末 1大匙 / 香菜末 1大匙 / 香菜末 1/大匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "玉米粉",
+    "unit": "茶匙",
+    "usage_count": 47,
+    "examples": "玉米粉 1/2茶匙 / 玉米粉 1茶匙 / 玉米粉 1茶匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "紅番茄",
+    "unit": "顆",
+    "usage_count": 47,
+    "examples": "紅蕃茄 1/4顆 / 紅番茄 2顆 / 紅蕃茄 1顆",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "厚片土司",
+    "unit": "片",
+    "usage_count": 47,
+    "examples": "厚片土司 1片 / 厚片土司 2片 / 厚片土司 2片",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "泡打粉",
+    "unit": "茶匙",
+    "usage_count": 47,
+    "examples": "泡打粉 1/2茶匙 / 泡打粉 1/2茶匙 / 泡打粉 1/2茶匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "XO醬",
+    "unit": "大匙",
+    "usage_count": 46,
+    "examples": "XO醬 1大匙 / XO醬 1大匙 / XO醬 1大匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "滷包",
+    "unit": "包",
+    "usage_count": 45,
+    "examples": "滷包 1包 / 滷包 1包 / 滷包 1包",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "青蒜",
+    "unit": "支",
+    "usage_count": 45,
+    "examples": "青蒜 1支 / 青蒜 1支 / 青蒜 2支",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "起司粉",
+    "unit": "大匙",
+    "usage_count": 45,
+    "examples": "起司粉 1大匙 / 起司粉 1大匙 / 起司粉 1大匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "咖哩粉",
+    "unit": "小匙",
+    "usage_count": 45,
+    "examples": "咖哩粉 1小匙 / 咖哩粉 1/2小匙 / 咖哩粉 1/2小匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "鴨血",
+    "unit": "塊",
+    "usage_count": 45,
+    "examples": "鴨血 1塊 / 鴨血 1塊 / 鴨血 5塊",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "黑麻油",
+    "unit": "大匙",
+    "usage_count": 45,
+    "examples": "黑麻油 2大匙 / 黑麻油 1∼2大匙 / 黑麻油 1大匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "白醋",
+    "unit": "杯",
+    "usage_count": 45,
+    "examples": "白醋 1/3杯 / 白醋 1/2量杯 / 白醋 1杯",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "腐皮",
+    "unit": "張",
+    "usage_count": 45,
+    "examples": "腐皮 3張 / 腐皮 1張 / 腐皮 3張",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "花椒粉",
+    "unit": "小匙",
+    "usage_count": 44,
+    "examples": "花椒粉 1/2小匙 / 花椒粉 1小匙 / 花椒粉 1/2小匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "辣椒粉",
+    "unit": "茶匙",
+    "usage_count": 44,
+    "examples": "辣椒粉 1茶匙 / 辣椒粉 1/4茶匙 / 辣椒粉 1/2茶匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "臭豆腐",
+    "unit": "塊",
+    "usage_count": 44,
+    "examples": "臭豆腐 2塊 / 臭豆腐 3塊 / 臭豆腐 1塊",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "九層塔",
+    "unit": "根",
+    "usage_count": 44,
+    "examples": "九層塔 5根 / 九層塔 2根 / 九層塔 2根",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "雞蛋",
+    "unit": "粒",
+    "usage_count": 44,
+    "examples": "雞蛋 1粒 / 雞蛋 2粒 / 雞蛋 1粒",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "鱸魚",
+    "unit": "尾",
+    "usage_count": 44,
+    "examples": "鱸魚 1尾 / 鱸魚 1尾 / 鱸魚 1尾",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "鯛魚",
+    "unit": "片",
+    "usage_count": 44,
+    "examples": "3.鯛魚 1片 / 鯛魚 1片 / 鯛魚 1片",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "青江菜",
+    "unit": "顆",
+    "usage_count": 43,
+    "examples": "青江菜 2顆 / 青江菜 2顆 / 青江菜 5顆",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "牛蒡",
+    "unit": "條",
+    "usage_count": 43,
+    "examples": "牛蒡 1/2條 / 牛蒡 1/2條 / 牛蒡 1/2條",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "醋",
+    "unit": "cc",
+    "usage_count": 43,
+    "examples": "醋 100㏄ / D.醋 30cc / 醋 60㏄",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "麵包粉",
+    "unit": "大匙",
+    "usage_count": 43,
+    "examples": "麵包粉 1大匙 / 麵包粉 2大匙 / 麵包粉 4大匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "柴魚醬油",
+    "unit": "大匙",
+    "usage_count": 43,
+    "examples": "柴魚醬油 1大匙 / 柴魚醬油 1大匙 / 柴魚醬油 1大匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "淡醬油",
+    "unit": "大匙",
+    "usage_count": 43,
+    "examples": "淡醬油 1大匙 / 淡醬油 1/2大匙 / 淡醬油 1/2大匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "花椒",
+    "unit": "小匙",
+    "usage_count": 42,
+    "examples": "花椒 1小匙 / 2.花椒 1小匙 / 花椒 1小匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "咖哩塊",
+    "unit": "塊",
+    "usage_count": 42,
+    "examples": "4.咖哩塊 2塊 / 咖哩塊 2小塊 / 咖哩塊 1塊",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "烏醋",
+    "unit": "茶匙",
+    "usage_count": 42,
+    "examples": "烏醋 1/2茶匙 / 烏醋 1茶匙 / 烏醋 1茶匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "米酒",
+    "unit": "瓶",
+    "usage_count": 42,
+    "examples": "米酒 半瓶 / 米酒 1/2瓶 / 米酒 1/2瓶",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "蛤蜊",
+    "unit": "個",
+    "usage_count": 42,
+    "examples": "蛤蜊 3個 / 蛤蜊 3個 / 蛤蜊 20個",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "黃甜椒",
+    "unit": "個",
+    "usage_count": 42,
+    "examples": "黃甜椒 1/2個 / 黃甜椒 半個 / 黃甜椒 1/2個",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "鰹魚醬油",
+    "unit": "大匙",
+    "usage_count": 42,
+    "examples": "鰹魚醬油 1大匙 / 鰹魚醬油 2大匙 / 鰹魚醬油 1又1/2大匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "蛋豆腐",
+    "unit": "盒",
+    "usage_count": 42,
+    "examples": "蛋豆腐 半盒 / 蛋豆腐 1/2盒 / 蛋豆腐 2盒",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "中筋麵粉",
+    "unit": "杯",
+    "usage_count": 41,
+    "examples": "中筋麵粉 1杯 / 中筋麵粉 2杯 / 中筋麵粉 1/2杯",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "白土司",
+    "unit": "片",
+    "usage_count": 41,
+    "examples": "白土司 8片 / 1.白土司 4片 / 白土司 2片",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "砂糖",
+    "unit": "茶匙",
+    "usage_count": 41,
+    "examples": "砂糖 2茶匙 / 砂糖 1茶匙 / 砂糖 1茶匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "紅椒",
+    "unit": "個",
+    "usage_count": 41,
+    "examples": "紅椒 1/4個 / 紅椒 1/2個 / 紅椒 1個",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "豆豉",
+    "unit": "大匙",
+    "usage_count": 41,
+    "examples": "豆豉 1大匙 / 豆豉 1大匙 / 豆豉 1大匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "玉米粒",
+    "unit": "大匙",
+    "usage_count": 41,
+    "examples": "玉米粒 1大匙 / 玉米粒 1大匙 / 玉米粒 1大匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "泡發香菇",
+    "unit": "朵",
+    "usage_count": 41,
+    "examples": "泡發香菇 3朵 / 泡發香菇 8朵 / 泡發香菇 4朵",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "漢堡麵包",
+    "unit": "個",
+    "usage_count": 40,
+    "examples": "Ｂ.漢堡麵包 1個 / 漢堡麵包 1個 / 漢堡麵包 1個",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "淡色醬油",
+    "unit": "cc",
+    "usage_count": 40,
+    "examples": "淡色醬油 1000㏄ / 淡色醬油 1000cc / 淡色醬油 45cc",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "香茅",
+    "unit": "根",
+    "usage_count": 40,
+    "examples": "香茅 3根 / 香茅 2根 / 香茅 3根",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "醬油膏",
+    "unit": "cc",
+    "usage_count": 40,
+    "examples": "醬油膏 40cc / 醬油膏 50cc / 醬油膏 50㏄",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "熱白飯",
+    "unit": "碗",
+    "usage_count": 40,
+    "examples": "熱白飯 1碗 / B.熱白飯 1碗 / 熱白飯 1碗",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "豆腐",
+    "unit": "盒",
+    "usage_count": 40,
+    "examples": "豆腐 1盒 / 豆腐 1盒 / 豆腐 2盒",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "柳橙",
+    "unit": "顆",
+    "usage_count": 40,
+    "examples": "柳橙 2顆 / 柳橙 2顆 / 柳橙 1顆",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "豆腐乳",
+    "unit": "塊",
+    "usage_count": 39,
+    "examples": "豆腐乳 3塊 / 豆腐乳 1塊 / 豆腐乳 1塊",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "九層塔",
+    "unit": "片",
+    "usage_count": 39,
+    "examples": "九層塔 2片 / 九層塔 5片 / 九層塔 3片",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "奇異果",
+    "unit": "個",
+    "usage_count": 39,
+    "examples": "奇異果 1個 / 奇異果 2個 / 奇異果 1個",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "生菜葉",
+    "unit": "片",
+    "usage_count": 39,
+    "examples": "生菜葉 2片 / 生菜葉 1片 / B.生菜葉 10片",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "辣椒片",
+    "unit": "條",
+    "usage_count": 39,
+    "examples": "辣椒片 1條 / 辣椒片 1條 / 辣椒片 1條",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "酒釀",
+    "unit": "大匙",
+    "usage_count": 39,
+    "examples": "酒釀 1大匙 / A.酒釀 2大匙 / 酒釀 2大匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "麵粉",
+    "unit": "小匙",
+    "usage_count": 39,
+    "examples": "麵粉 1/2小匙 / 麵粉 1小匙 / 麵粉 1小匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "荸薺",
+    "unit": "顆",
+    "usage_count": 39,
+    "examples": "荸薺 數顆 / 荸薺 6顆 / 荸薺 6顆",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "秋葵",
+    "unit": "支",
+    "usage_count": 39,
+    "examples": "秋葵 3支 / 秋葵 1支 / 秋葵 2支",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "柴魚素",
+    "unit": "小匙",
+    "usage_count": 39,
+    "examples": "柴魚素 1小匙 / 柴魚素 1/2小匙 / 柴魚素 1/4小匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "鹹蛋黃",
+    "unit": "顆",
+    "usage_count": 39,
+    "examples": "鹹蛋黃 3顆 / 鹹蛋黃 4顆 / 鹹蛋黃 3顆",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "牛奶",
+    "unit": "大匙",
+    "usage_count": 39,
+    "examples": "牛奶 2大匙 / 牛奶 2大匙 / 牛奶 2大匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "玉米",
+    "unit": "條",
+    "usage_count": 38,
+    "examples": "玉米 1條 / 玉米 2條 / 玉米 1條",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "辣椒末",
+    "unit": "大匙",
+    "usage_count": 38,
+    "examples": "辣椒末 1大匙 / 辣椒末 1大匙 / 辣椒末 1大匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "胡蘿蔔",
+    "unit": "根",
+    "usage_count": 38,
+    "examples": "紅蘿蔔 1/4根 / 紅蘿蔔 1根 / 紅蘿蔔 1根",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "牛頭牌原味高湯",
+    "unit": "cc",
+    "usage_count": 38,
+    "examples": "牛頭牌原味高湯 50cc / 牛頭牌原味高湯 100cc / 牛頭牌原味高湯 50㏄",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "洋蔥丁",
+    "unit": "大匙",
+    "usage_count": 38,
+    "examples": "洋蔥丁 1/2大匙 / 洋蔥丁 1大匙 / 洋蔥丁 1/2大匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "椒鹽粉",
+    "unit": "茶匙",
+    "usage_count": 38,
+    "examples": "B.椒鹽粉 1茶匙 / B.椒鹽粉 1茶匙 / B.椒鹽粉 1茶匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "蔬菜高湯",
+    "unit": "cc",
+    "usage_count": 38,
+    "examples": "蔬菜高湯 700㏄ / 蔬菜高湯 400㏄ / C.蔬菜高湯 100㏄",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "米醋",
+    "unit": "大匙",
+    "usage_count": 38,
+    "examples": "米醋 1大匙 / 米醋 2大匙 / 米醋 1大匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "甜辣醬",
+    "unit": "大匙",
+    "usage_count": 37,
+    "examples": "甜辣醬 2大匙 / 甜辣醬 2大匙 / 甜辣醬 4大匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "乾辣椒",
+    "unit": "條",
+    "usage_count": 37,
+    "examples": "乾辣椒 2條 / 乾辣椒 6條 / 乾辣椒 3條",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "料理米酒",
+    "unit": "小匙",
+    "usage_count": 37,
+    "examples": "料理米酒 1小匙 / 料理米酒 1小匙 / 料理米酒 1/2小匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "大番茄",
+    "unit": "顆",
+    "usage_count": 37,
+    "examples": "大番茄 1/3顆 / 大番茄 1顆 / 大番茄 1顆",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "綠花椰菜",
+    "unit": "朵",
+    "usage_count": 37,
+    "examples": "綠花椰菜 1朵 / 綠花椰菜 3朵 / 綠花椰菜 1/3朵",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "牛奶",
+    "unit": "杯",
+    "usage_count": 36,
+    "examples": "牛奶 1杯 / 牛奶 1杯 / 牛奶 1杯",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "優格",
+    "unit": "cc",
+    "usage_count": 36,
+    "examples": "優格 240cc / 優格 120cc / 優格 60cc",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "蕃茄醬",
+    "unit": "cc",
+    "usage_count": 36,
+    "examples": "蕃茄醬 25c.c / 蕃茄醬 100cc / 蕃茄醬 30㏄",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "雞湯",
+    "unit": "cc",
+    "usage_count": 36,
+    "examples": "雞湯 3000㏄ / B.雞湯 800㏄ / 雞湯 100㏄",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "薑汁",
+    "unit": "大匙",
+    "usage_count": 36,
+    "examples": "薑汁 5大匙 / 薑汁 1大匙 / 薑汁 1大匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "薑泥",
+    "unit": "小匙",
+    "usage_count": 36,
+    "examples": "薑泥 1/2小匙 / 薑泥 1小匙 / 薑泥 1小匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "熱開水",
+    "unit": "杯",
+    "usage_count": 36,
+    "examples": "熱開水 3杯 / 熱開水 1杯 / 熱開水 5杯",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "紅蔥油",
+    "unit": "大匙",
+    "usage_count": 36,
+    "examples": "紅蔥油 1大匙 / 紅蔥油 1大匙 / 紅蔥油 2大匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "水餃皮",
+    "unit": "張",
+    "usage_count": 36,
+    "examples": "水餃皮 25張 / 水餃皮 20張 / 水餃皮 20張",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "圓糯米",
+    "unit": "杯",
+    "usage_count": 36,
+    "examples": "圓糯米 0.5杯 / 圓糯米 1/2杯 / 圓糯米 1又1/2杯",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "花生醬",
+    "unit": "大匙",
+    "usage_count": 35,
+    "examples": "花生醬 2大匙 / 花生醬 1大匙 / 花生醬 1大匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "蒜",
+    "unit": "粒",
+    "usage_count": 35,
+    "examples": "蒜 1粒 / 蒜 2粒 / 蒜 2粒",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "清水",
+    "unit": "cc",
+    "usage_count": 35,
+    "examples": "清水 120㏄ / 清水 6000㏄ / 清水 1000㏄",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "玉米筍",
+    "unit": "根",
+    "usage_count": 35,
+    "examples": "玉米筍 10根 / 玉米筍 5根 / 玉米筍 2根",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "奶粉",
+    "unit": "大匙",
+    "usage_count": 35,
+    "examples": "奶粉 1大匙 / 奶粉 1大匙 / 奶粉 3大匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "辣椒末",
+    "unit": "茶匙",
+    "usage_count": 35,
+    "examples": "辣椒末 1/2茶匙 / 辣椒末 1茶匙 / 辣椒末 1/2茶匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "鮮魚",
+    "unit": "尾",
+    "usage_count": 35,
+    "examples": "鮮魚 一尾 / 鮮魚 1尾 / 鮮魚 1尾",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "香菇粉",
+    "unit": "小匙",
+    "usage_count": 35,
+    "examples": "香菇粉 1/4小匙 / 香菇粉 1/2小匙 / 香菇粉 1/4小匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "蔥",
+    "unit": "杯",
+    "usage_count": 34,
+    "examples": "蔥花 1/3杯 / 蔥花 1/3杯 / 蔥末 1/2杯",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "蘑菇",
+    "unit": "朵",
+    "usage_count": 34,
+    "examples": "蘑菇 4朵 / 蘑菇 3朵 / 蘑菇 10朵",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "吐司",
+    "unit": "片",
+    "usage_count": 34,
+    "examples": "1.吐司 6片 / 吐司 2片 / 吐司 4片",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "生菜",
+    "unit": "片",
+    "usage_count": 34,
+    "examples": "生菜 1片 / 生菜 數片 / 生菜 2片",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "辣椒醬",
+    "unit": "茶匙",
+    "usage_count": 34,
+    "examples": "辣椒醬 1茶匙 / 辣椒醬 1茶匙 / 辣椒醬 2茶匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "百里香",
+    "unit": "茶匙",
+    "usage_count": 34,
+    "examples": "百里香 1/8茶匙 / 百里香 1/8茶匙 / 百里香 1/8茶匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "椰漿",
+    "unit": "大匙",
+    "usage_count": 34,
+    "examples": "椰漿 4大匙 / 椰漿 1大匙 / 椰漿 2大匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "香菜",
+    "unit": "株",
+    "usage_count": 34,
+    "examples": "香菜 1株 / 香菜 2株 / 香菜 2株",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "西芹",
+    "unit": "支",
+    "usage_count": 34,
+    "examples": "西芹 3支 / 西芹 2支 / 西芹 2支",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "中筋麵粉",
+    "unit": "大匙",
+    "usage_count": 34,
+    "examples": "中筋麵粉 1又1/2大匙 / 中筋麵粉 2大匙 / 中筋麵粉 1又1/2大匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "淡醬油",
+    "unit": "小匙",
+    "usage_count": 34,
+    "examples": "淡醬油 1小匙 / 淡醬油 1小匙 / 淡醬油 1/4小匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "鴻喜菇",
+    "unit": "包",
+    "usage_count": 34,
+    "examples": "鴻喜菇 1包 / 鴻喜菇 1/2包 / 鴻喜菇 2包",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "餛飩皮",
+    "unit": "張",
+    "usage_count": 34,
+    "examples": "餛飩皮 15張 / 餛飩皮 10張 / 餛飩皮 30張",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "鹹蛋",
+    "unit": "顆",
+    "usage_count": 34,
+    "examples": "鹹蛋 2顆 / 鹹蛋 2顆 / 鹹蛋 2顆",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "胡椒鹽",
+    "unit": "小匙",
+    "usage_count": 34,
+    "examples": "胡椒鹽 1小匙 / 胡椒鹽 1小匙 / 胡椒鹽 1小匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "雞翅",
+    "unit": "支",
+    "usage_count": 34,
+    "examples": "雞翅 10支 / 1.雞翅 4支 / 雞翅 3支",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "鋁箔紙",
+    "unit": "張",
+    "usage_count": 33,
+    "examples": "鋁箔紙 1張 / 鋁箔紙 1張 / 鋁箔紙 2張",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "花生粉",
+    "unit": "大匙",
+    "usage_count": 33,
+    "examples": "花生粉 1大匙 / 花生粉 3大匙 / 花生粉 1大匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "料理米酒",
+    "unit": "茶匙",
+    "usage_count": 33,
+    "examples": "料理米酒 1/2茶匙 / 料理米酒 1茶匙 / 料理米酒 1/2茶匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "薑泥",
+    "unit": "茶匙",
+    "usage_count": 33,
+    "examples": "薑泥 1/4茶匙 / 薑泥 1/2茶匙 / 薑泥 1/2茶匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "花椒",
+    "unit": "茶匙",
+    "usage_count": 33,
+    "examples": "花椒 1/4茶匙 / 花椒 1/4茶匙 / 花椒 1/4茶匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "麻油",
+    "unit": "cc",
+    "usage_count": 33,
+    "examples": "麻油 20㏄ / 麻油 10cc / 麻油 20cc",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "味醂",
+    "unit": "茶匙",
+    "usage_count": 33,
+    "examples": "味醂 2茶匙 / 味醂 1茶匙 / 味醂 1茶匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "沙茶醬",
+    "unit": "小匙",
+    "usage_count": 33,
+    "examples": "沙茶醬 1小匙 / 沙茶醬 1小匙 / 沙茶醬 2小匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "牛骨高湯",
+    "unit": "cc",
+    "usage_count": 33,
+    "examples": "牛骨高湯 500㏄ / 牛骨高湯 3000㏄ / 牛骨高湯 50㏄",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "巴西里碎",
+    "unit": "茶匙",
+    "usage_count": 33,
+    "examples": "巴西里碎 1茶匙 / 巴西里碎 1/2茶匙 / 巴西里碎 1/4茶匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "薑泥",
+    "unit": "大匙",
+    "usage_count": 33,
+    "examples": "薑泥 5大匙 / 薑泥 1大匙 / 薑泥 1大匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "龜甲萬鮮美露",
+    "unit": "大匙",
+    "usage_count": 33,
+    "examples": "龜甲萬鮮美露 2大匙 / A.龜甲萬鮮美露 1大匙 / B.龜甲萬鮮美露 1大匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "油蔥酥",
+    "unit": "大匙",
+    "usage_count": 33,
+    "examples": "油蔥酥 3大匙 / A.油蔥酥 1大匙 / 油蔥酥 1大匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "香腸",
+    "unit": "條",
+    "usage_count": 33,
+    "examples": "香腸 1條 / 香腸 10條 / 香腸 3條",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "玉米粉",
+    "unit": "小匙",
+    "usage_count": 33,
+    "examples": "玉米粉 1小匙 / B.玉米粉 1小匙 / 玉米粉 1/4小匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "黑醋",
+    "unit": "小匙",
+    "usage_count": 33,
+    "examples": "黑醋 1/4小匙 / 黑醋 1小匙 / 黑醋 1小匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "玉米粉",
+    "unit": "杯",
+    "usage_count": 33,
+    "examples": "玉米粉 1/2杯 / 玉米粉 1/2杯 / 玉米粉 1杯",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "薑汁",
+    "unit": "小匙",
+    "usage_count": 33,
+    "examples": "薑汁 1/4小匙 / 薑汁 1小匙 / 薑汁 1/2小匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "去骨雞腿肉",
+    "unit": "支",
+    "usage_count": 33,
+    "examples": "去骨雞腿肉 2支 / 去骨雞腿肉 2支 / 去骨雞腿肉 1支",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "乾辣椒",
+    "unit": "根",
+    "usage_count": 32,
+    "examples": "乾辣椒 1根 / 乾辣椒 4根 / 乾辣椒 1根",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "高湯",
+    "unit": "碗",
+    "usage_count": 32,
+    "examples": "高湯 1/2碗 / 高湯 2碗 / 高湯 1大碗",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "干貝",
+    "unit": "顆",
+    "usage_count": 32,
+    "examples": "干貝 小5顆 / 干貝 6顆 / 干貝 2顆",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "胡蘿蔔",
+    "unit": "片",
+    "usage_count": 32,
+    "examples": "紅蘿蔔 3片 / 紅蘿蔔 3片 / 紅蘿蔔 10片",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "紅蘿蔔片",
+    "unit": "片",
+    "usage_count": 32,
+    "examples": "紅蘿蔔片 3片 / 紅蘿蔔片 2片 / 紅蘿蔔片 3∼4片",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "黑胡椒",
+    "unit": "茶匙",
+    "usage_count": 32,
+    "examples": "黑胡椒 1/2茶匙 / 黑胡椒 1/2茶匙 / 黑胡椒 1/2茶匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "蔥白",
+    "unit": "根",
+    "usage_count": 32,
+    "examples": "蔥白 2根 / 蔥白 2根 / 蔥白 2根",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "丁香",
+    "unit": "粒",
+    "usage_count": 32,
+    "examples": "丁香 2粒 / 丁香 2粒 / 丁香 1粒",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "紅蘿蔔丁",
+    "unit": "大匙",
+    "usage_count": 32,
+    "examples": "紅蘿蔔丁 1大匙 / 紅蘿蔔丁 1又1/2大匙 / 紅蘿蔔丁 3大匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "芒果",
+    "unit": "顆",
+    "usage_count": 32,
+    "examples": "芒果 1顆 / 芒果 1顆 / 芒果 1顆",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "鹹蛋黃",
+    "unit": "個",
+    "usage_count": 32,
+    "examples": "鹹蛋黃 5個 / 鹹蛋黃 3個 / 鹹蛋黃 1個",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "去邊土司",
+    "unit": "片",
+    "usage_count": 32,
+    "examples": "F.去邊土司 2片 / 去邊土司 5片 / 去邊土司 6片",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "鮪魚罐頭",
+    "unit": "罐",
+    "usage_count": 32,
+    "examples": "鮪魚罐頭 1罐 / 鮪魚罐頭 1罐 / 鮪魚罐頭 1罐",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "雞腿肉",
+    "unit": "隻",
+    "usage_count": 32,
+    "examples": "雞腿肉 10隻 / 雞腿肉 3隻 / A.雞腿肉 2隻",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "小番茄",
+    "unit": "個",
+    "usage_count": 32,
+    "examples": "小蕃茄 8個 / 小蕃茄 4個 / 小蕃茄 3個",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "吉利丁",
+    "unit": "片",
+    "usage_count": 32,
+    "examples": "吉利丁 20片 / 吉利丁 20片 / 吉利丁 5片",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "胡椒粉",
+    "unit": "大匙",
+    "usage_count": 31,
+    "examples": "胡椒粉 1/4大匙 / 胡椒粉 1大匙 / 胡椒粉 1大匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "青花菜",
+    "unit": "朵",
+    "usage_count": 31,
+    "examples": "青花菜 5朵 / 青花菜 4小朵 / 青花菜 3朵",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "起司",
+    "unit": "片",
+    "usage_count": 31,
+    "examples": "起司 1片 / 起司 1片 / 起司 1片",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "甜麵醬",
+    "unit": "小匙",
+    "usage_count": 31,
+    "examples": "甜麵醬 1小匙 / 甜麵醬 1小匙 / 甜麵醬 1/4小匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "四季豆",
+    "unit": "根",
+    "usage_count": 31,
+    "examples": "四季豆 5根 / 四季豆 5根 / 四季豆 3根",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "紅棗",
+    "unit": "個",
+    "usage_count": 31,
+    "examples": "2.紅棗 20個 / 紅棗 5個 / 紅棗 5個",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "奶油白醬",
+    "unit": "大匙",
+    "usage_count": 31,
+    "examples": "奶油白醬 2大匙 / 奶油白醬 4大匙 / 奶油白醬 2大匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "葡萄乾",
+    "unit": "大匙",
+    "usage_count": 31,
+    "examples": "葡萄乾 2大匙 / 葡萄乾 1大匙 / 葡萄乾 2大匙",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "雞腿肉",
+    "unit": "支",
+    "usage_count": 31,
+    "examples": "A.雞腿肉 2支 / A.雞腿肉 2支 / 雞腿肉 1支",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "泡麵麵條",
+    "unit": "包",
+    "usage_count": 31,
+    "examples": "泡麵麵條 1/2包 / 泡麵麵條 1/2包 / 泡麵麵條 1/2包",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "八角",
+    "unit": "個",
+    "usage_count": 30,
+    "examples": "八角 3個 / 八角 4個 / 八角 5個",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "四季豆",
+    "unit": "支",
+    "usage_count": 30,
+    "examples": "四季豆 5支 / 四季豆 12支 / 四季豆 6支",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  },
+  {
+    "ingredient": "檸檬片",
+    "unit": "片",
+    "usage_count": 30,
+    "examples": "檸檬片 3片 / 檸檬片 3片 / 檸檬片 1片",
+    "grams_per_unit": null,
+    "review_status": "待補"
+  }
+]

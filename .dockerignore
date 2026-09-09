@@ -1,0 +1,6 @@
+.git
+.env
+mysql/data
+data/processed
+__pycache__
+*.pyc

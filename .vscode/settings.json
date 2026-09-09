@@ -1,0 +1,13 @@
+{
+  "python.defaultInterpreterPath": "/opt/venv/bin/python",
+  "python.analysis.extraPaths": [
+    "/workspace/python"
+  ],
+  "python.terminal.activateEnvironment": false,
+  "python.terminal.executeInFileDir": false,
+  "terminal.integrated.cwd": "/workspace/python",
+  "files.exclude": {
+    "**/__pycache__": true,
+    "**/*.pyc": true
+  }
+}
