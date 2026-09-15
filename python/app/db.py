@@ -1,33 +1,16 @@
 from __future__ import annotations
-
-from contextlib import contextmanager
-from typing import Iterator
-
 import pymysql
-from pymysql.connections import Connection
+from pymysql.cursors import DictCursor
+from app.config import DB_HOST, DB_PORT, DB_NAME, DB_USER, DB_PASSWORD
 
-from app.config import settings
-
-
-@contextmanager
-def get_connection(*, autocommit: bool = False) -> Iterator[Connection]:
-    conn = pymysql.connect(
-        host=settings.db_host,
-        port=settings.db_port,
-        user=settings.db_user,
-        password=settings.db_password,
-        database=settings.db_name,
-        charset=settings.db_charset,
-        cursorclass=pymysql.cursors.DictCursor,
-        autocommit=autocommit,
+def get_connection():
+    return pymysql.connect(
+        host=DB_HOST,
+        port=DB_PORT,
+        user=DB_USER,
+        password=DB_PASSWORD,
+        database=DB_NAME,
+        charset="utf8mb4",
+        cursorclass=DictCursor,
+        autocommit=False,
     )
-    try:
-        yield conn
-        if not autocommit:
-            conn.commit()
-    except Exception:
-        if not autocommit:
-            conn.rollback()
-        raise
-    finally:
-        conn.close()

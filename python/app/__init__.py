@@ -1,1 +1,0 @@
-"""Recipe Collections application package."""

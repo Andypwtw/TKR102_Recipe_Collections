@@ -1,21 +1,20 @@
-FROM python:3.13-slim
-
-ENV PYTHONDONTWRITEBYTECODE=1 \
-    PYTHONUNBUFFERED=1 \
-    UV_PROJECT_ENVIRONMENT=/opt/venv \
-    PATH=/opt/venv/bin:$PATH
-
-RUN apt-get update \
-    && apt-get install -y --no-install-recommends \
-       curl \
-       chromium \
-       chromium-driver \
-    && rm -rf /var/lib/apt/lists/* \
-    && pip install --no-cache-dir uv
-
-WORKDIR /tmp/recipe-python
-COPY pyproject.toml ./
-RUN uv sync --no-dev
+FROM python:3.12-slim
 
 WORKDIR /workspace/python
-CMD ["uv", "run", "flask", "--app", "app.api:app", "run", "--host=0.0.0.0", "--port=5000"]
+
+RUN apt-get update     && apt-get install -y --no-install-recommends build-essential curl     && rm -rf /var/lib/apt/lists/*
+
+RUN pip install --no-cache-dir uv
+
+ENV UV_PROJECT_ENVIRONMENT=/opt/venv
+ENV PATH="/opt/venv/bin:$PATH"
+ENV PYTHONPATH=/workspace/python
+ENV PYTHONUNBUFFERED=1
+
+COPY pyproject.toml ./
+COPY uv.lock* ./
+RUN uv sync || true
+
+COPY . .
+
+EXPOSE 5000

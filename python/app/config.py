@@ -1,18 +1,15 @@
 from __future__ import annotations
-
 import os
-from dataclasses import dataclass
 
+DB_HOST = os.getenv("DB_HOST", "mysql")
+DB_PORT = int(os.getenv("DB_PORT", "3306"))
+DB_NAME = os.getenv("DB_NAME", "recipe_ai")
+DB_USER = os.getenv("DB_USER", "root")
+DB_PASSWORD = os.getenv("DB_PASSWORD", "rootpassword")
 
-@dataclass(frozen=True)
-class Settings:
-    db_host: str = os.getenv("DB_HOST", "recipe-mysql")
-    db_port: int = int(os.getenv("DB_PORT", "3306"))
-    db_name: str = os.getenv("DB_NAME", "recipe_ai")
-    db_user: str = os.getenv("DB_USER", "root")
-    db_password: str = os.getenv("DB_PASSWORD", "")
-    db_charset: str = os.getenv("DB_CHARSET", "utf8mb4")
-    hermes_api_key: str = os.getenv("HERMES_API_KEY", "")
-
-
-settings = Settings()
+MONGO_URI = os.getenv(
+    "MONGO_URI",
+    "mongodb://root:rootpassword@mongodb:27017/recipe_ai?authSource=admin",
+)
+MONGO_DATABASE = os.getenv("MONGO_DATABASE", "recipe_ai")
+MONGO_COLLECTION = os.getenv("MONGO_COLLECTION", "raw_recipes")
