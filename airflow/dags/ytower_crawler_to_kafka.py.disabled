@@ -1,0 +1,20 @@
+from __future__ import annotations
+from datetime import datetime
+from airflow import DAG
+from airflow.operators.python import PythonOperator
+
+def run_crawler():
+    from crawler.ytower_crawler import crawl_and_publish
+    crawl_and_publish()
+
+with DAG(
+    dag_id="ytower_crawler_to_kafka",
+    start_date=datetime(2026,9,1),
+    schedule=None,
+    catchup=False,
+    tags=["recipe","ytower","kafka"],
+) as dag:
+    crawl_task = PythonOperator(
+        task_id="crawl_ytower",
+        python_callable=run_crawler,
+    )

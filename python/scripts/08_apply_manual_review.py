@@ -1,47 +1,81 @@
 from __future__ import annotations
-import json
-from pathlib import Path
+
 from app.db import get_connection
 
-SRC=Path("/workspace/data/manual_review/manual_review.json")
 
 def main():
-    rows=json.loads(SRC.read_text(encoding="utf-8"))
-    approved={}
-    for r in rows:
-        decision=(r.get("decision") or "").upper()
-        if decision not in {"APPROVED","REJECTED"}:
-            raise ValueError(f"review_id {r.get('review_id')} decision must be APPROVED/REJECTED")
-        if decision=="APPROVED":
-            iid=r["ingredient_id"]
-            if iid in approved:
-                raise ValueError(f"ingredient_id {iid} has more than one APPROVED")
-            approved[iid]=r
+    """
+    將 07_auto_review_nutrition.py 已經判定為 APPROVED 的候選
+    寫入 ingredient_nutrition_map。
 
+    REJECTED 只保留在 manual_review 作為 audit trail，不建立 mapping。
+    """
     with get_connection() as conn, conn.cursor() as cur:
-        for r in rows:
-            decision=r["decision"].upper()
-            cur.execute(
-                "UPDATE manual_review SET status=%s,note=%s,reviewed_at=NOW() WHERE id=%s",
-                (decision,r.get("note"),r["review_id"])
+        # 防止同一 ingredient 出現多筆 APPROVED。
+        cur.execute(
+            """
+            SELECT ingredient_id, COUNT(*) AS cnt
+            FROM manual_review
+            WHERE status = 'APPROVED'
+            GROUP BY ingredient_id
+            HAVING COUNT(*) > 1
+            """
+        )
+        duplicates = cur.fetchall()
+
+        if duplicates:
+            raise RuntimeError(
+                "Automatic review produced more than one APPROVED "
+                f"candidate for ingredient(s): {duplicates}"
             )
-            if decision=="APPROVED":
-                cur.execute(
-                    """
-                    INSERT INTO ingredient_nutrition_map
-                    (ingredient_id,nutrition_source_id,match_method,match_score,status,reviewed_at)
-                    VALUES(%s,%s,'manual',%s,'APPROVED',NOW())
-                    ON DUPLICATE KEY UPDATE
-                    nutrition_source_id=VALUES(nutrition_source_id),
-                    match_method='manual',
-                    match_score=VALUES(match_score),
-                    status='APPROVED',
-                    reviewed_at=NOW()
-                    """,
-                    (r["ingredient_id"],r["candidate_nutrition_id"],float(r["score"]))
+
+        cur.execute(
+            """
+            SELECT
+                ingredient_id,
+                candidate_nutrition_id,
+                score
+            FROM manual_review
+            WHERE status = 'APPROVED'
+            ORDER BY ingredient_id
+            """
+        )
+        approved_rows = cur.fetchall()
+
+        for row in approved_rows:
+            cur.execute(
+                """
+                INSERT INTO ingredient_nutrition_map
+                (
+                    ingredient_id,
+                    nutrition_source_id,
+                    match_method,
+                    match_score,
+                    status,
+                    reviewed_at
                 )
+                VALUES (%s, %s, 'auto_review', %s, 'APPROVED', NOW())
+                ON DUPLICATE KEY UPDATE
+                    nutrition_source_id = VALUES(nutrition_source_id),
+                    match_method = 'auto_review',
+                    match_score = VALUES(match_score),
+                    status = 'APPROVED',
+                    reviewed_at = NOW()
+                """,
+                (
+                    row["ingredient_id"],
+                    row["candidate_nutrition_id"],
+                    float(row["score"]),
+                ),
+            )
+
         conn.commit()
-    print(f"manual review applied. approved={len(approved)}, total={len(rows)}")
+
+    print(
+        "Automatic review mappings applied. "
+        f"approved mappings={len(approved_rows)}"
+    )
+
 
 if __name__ == "__main__":
     main()

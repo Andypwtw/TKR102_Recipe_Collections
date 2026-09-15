@@ -1,129 +1,127 @@
-# Recipe Collections - Airflow + Kafka + MongoDB + MySQL
+# Recipe Collections - 完整營養資料保留 / 目前只顯示熱量
 
-## 目標資料流
+## 這一版的營養策略
 
-Airflow
-→ YTower crawler
-→ Kafka topic `ytower-recipes`
-→ `recipe-kafka-to-mongodb`
-→ MongoDB `recipe_ai.raw_recipes`
-→ Python ETL
-→ MySQL `recipe_ai`
-→ Flask API
-→ Hermes / LINE Bot
+2025 食品營養 Excel **全部匯入 MySQL**。
 
-## 第一次啟動
+不是只保存熱量。
 
-```bash
-cp .env.example .env
-docker compose up -d --build
-docker compose ps
-```
-
-## 先用現有 JSON 建立 MongoDB
-
-把舊資料放到：
+完整 Excel 會正規化成：
 
 ```text
-data/raw/ytower_seq_recipes.json
+nutrition_source
++
+nutrient_definitions
++
+nutrition_values
 ```
+
+同時 `nutrition_source.raw_data`
+保留每一列 Excel 的完整原始 JSON，
+確保來源資料可以完整追溯。
+
+目前應用功能只使用：
+
+```text
+熱量(kcal)
+```
+
+因此：
+
+```text
+09_calculate_recipe_nutrition.py
+```
+
+只讀：
+
+```text
+nutrient_definitions.source_column_name
+=
+熱量(kcal)
+```
+
+未來增加蛋白質、脂肪、鈉、維生素等功能時，
+不需要重新匯入或重新設計營養資料庫。
+
+---
+
+## 營養匯入
+
+Excel 必須位於：
+
+```text
+data/reference/food_nutrition_2025.xlsx
+```
+
+本下載包已包含目前的 2025 食品營養資料 Excel。
 
 執行：
 
 ```bash
 docker compose exec python bash
 cd /workspace/python
-uv run python scripts/00_seed_mongodb_from_json.py
+uv run python scripts/05_import_nutrition_excel.py
 ```
 
-檢查：
+---
+
+## 已有舊 MySQL 資料庫時
+
+先執行：
 
 ```bash
-docker exec -it recipe-mongodb mongosh -u root -p rootpassword --authenticationDatabase admin
+uv run python scripts/00_migrate_full_nutrition.py
 ```
 
-Mongo shell：
-
-```javascript
-use recipe_ai
-db.raw_recipes.countDocuments()
-db.raw_recipes.find({}, {_id:0,SEQ:1,食譜名稱:1}).limit(3)
-```
-
-## 執行 ETL
+然後重新跑：
 
 ```bash
-docker compose exec python bash
-cd /workspace/python
 uv run python scripts/10_pipeline.py
 ```
 
-Pipeline 會停在 manual review。
+---
 
-完成 `data/manual_review/manual_review.json` 後：
+## ER Model
 
-```bash
-uv run python scripts/08_apply_manual_review.py
-uv run python scripts/09_calculate_recipe_nutrition.py
-```
-
-## Kafka topic
-
-建立：
-
-```bash
-docker exec -it recipe-kafka /opt/kafka/bin/kafka-topics.sh --bootstrap-server localhost:9092 --create --if-not-exists --topic ytower-recipes --partitions 1 --replication-factor 1
-```
-
-查看：
-
-```bash
-docker exec -it recipe-kafka /opt/kafka/bin/kafka-topics.sh --bootstrap-server localhost:9092 --list
-```
-
-## Airflow
-
-瀏覽器：
+本專案 `docs/` 已加入：
 
 ```text
-http://localhost:8080
+ER_Model_正規化.png
+ER_Model_正規化.xlsx
+er_model.dbml
+ER_MODEL_中文詳細說明.md
 ```
 
-第一次建議先讓 DAG 維持 `schedule=None`，手動 Trigger。
-
-## 爬蟲整合
-
-`crawler/ytower_crawler.py` 不猜測你原本的 selector。
-請把你已驗證可用的 YTower 爬蟲主函式搬入 `crawl_recipes()`，
-回傳 `list[dict]`。
-
-Airflow 會呼叫：
+`er_model.dbml` 可以直接貼到：
 
 ```text
-crawl_and_publish()
+dbdiagram.io
 ```
 
-並將每筆 recipe 發送到 Kafka。
+產生互動式 ER Model。
 
-## API
+---
 
-```bash
-curl http://localhost:5001/health
-curl "http://localhost:5001/api/v1/recipes/search?q=牛肉"
+## 完整自動資料流
+
+```text
+Airflow
+→ YTower Crawler
+→ Kafka
+→ MongoDB raw_recipes
+→ Python ETL
+→ MySQL Recipe Tables
+→ 完整 Nutrition Excel Import
+→ Nutrition Matching
+→ Auto Review
+→ Ingredient Nutrition Map
+→ 目前只計算 energy_kcal
+→ Flask API
+→ Hermes / LINE
 ```
-
-## 容器角色
-
-- recipe-airflow：排程
-- recipe-postgres：Airflow metadata
-- recipe-kafka：message broker
-- recipe-kafka-to-mongodb：Kafka consumer
-- recipe-mongodb：raw recipe storage
-- recipe-python：ETL + Flask API
-- recipe-mysql：normalized production database
 
 ## 注意
 
-這份整合版是完整可啟動骨架，但 `crawler/ytower_crawler.py`
-需要放入你目前已經驗證的實際爬蟲邏輯。這是刻意保留，
-因為目前沒有你舊爬蟲的完整 source code，不應猜測網站 selector。
+這一版仍保留之前的重要限制：
+
+`crawler/ytower_crawler.py` 需要放入你真正已驗證的 YTower 爬蟲邏輯。

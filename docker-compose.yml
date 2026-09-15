@@ -155,7 +155,9 @@ services:
       - ./airflow/dags:/opt/airflow/dags
       - ./airflow/logs:/opt/airflow/logs
       - ./airflow/plugins:/opt/airflow/plugins
-      - ./crawler:/opt/airflow/project/crawler:ro
+      - ./crawler:/workspace/crawler:ro
+      - ./python:/workspace/python
+      - ./data:/workspace/data
     entrypoint: /bin/bash
     command:
       - -c
@@ -175,6 +177,10 @@ services:
         condition: service_healthy
       kafka:
         condition: service_healthy
+      mongodb:
+        condition: service_healthy
+      mysql:
+        condition: service_healthy
       airflow-init:
         condition: service_completed_successfully
     environment:
@@ -184,7 +190,15 @@ services:
       AIRFLOW__WEBSERVER__BASE_URL: http://localhost:${AIRFLOW_PORT:-8080}
       KAFKA_BOOTSTRAP_SERVERS: kafka:9092
       KAFKA_TOPIC: ${KAFKA_TOPIC:-ytower-recipes}
-      PYTHONPATH: /opt/airflow/project
+      DB_HOST: mysql
+      DB_PORT: 3306
+      DB_NAME: ${MYSQL_DATABASE:-recipe_ai}
+      DB_USER: root
+      DB_PASSWORD: ${MYSQL_ROOT_PASSWORD:-rootpassword}
+      MONGO_URI: mongodb://${MONGO_ROOT_USER:-root}:${MONGO_ROOT_PASSWORD:-rootpassword}@mongodb:27017/${MONGO_DATABASE:-recipe_ai}?authSource=admin
+      MONGO_DATABASE: ${MONGO_DATABASE:-recipe_ai}
+      MONGO_COLLECTION: ${MONGO_COLLECTION:-raw_recipes}
+      PYTHONPATH: /workspace/python:/workspace
       TZ: Asia/Taipei
     ports:
       - "${AIRFLOW_PORT:-8080}:8080"
@@ -192,7 +206,9 @@ services:
       - ./airflow/dags:/opt/airflow/dags
       - ./airflow/logs:/opt/airflow/logs
       - ./airflow/plugins:/opt/airflow/plugins
-      - ./crawler:/opt/airflow/project/crawler:ro
+      - ./crawler:/workspace/crawler:ro
+      - ./python:/workspace/python
+      - ./data:/workspace/data
     command: standalone
     healthcheck:
       test: ["CMD-SHELL", "curl --fail http://localhost:8080/health || exit 1"]

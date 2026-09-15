@@ -1,0 +1,172 @@
+Project Recipe_Collections {
+  database_type: 'MySQL'
+  Note: 'Airflow + Kafka + MongoDB Raw Layer + MySQL Normalized Recipe Database'
+}
+
+Table recipes {
+  id bigint [pk, increment]
+  seq varchar(50) [not null, unique]
+  name varchar(255) [not null]
+  published_date date
+  source_url varchar(500)
+  raw_keywords text
+  steps longtext
+  created_at timestamp
+  updated_at timestamp
+}
+
+Table keywords {
+  id bigint [pk, increment]
+  keyword_name varchar(100) [not null, unique]
+}
+
+Table recipe_keywords {
+  recipe_id bigint [pk, ref: > recipes.id]
+  keyword_id bigint [pk, ref: > keywords.id]
+}
+
+Table ingredients {
+  id bigint [pk, increment]
+  canonical_name varchar(255) [not null, unique]
+  category varchar(100)
+  created_at timestamp
+  updated_at timestamp
+}
+
+Table ingredient_aliases {
+  id bigint [pk, increment]
+  ingredient_id bigint [not null, ref: > ingredients.id]
+  alias_name varchar(255) [not null, unique]
+  source varchar(100)
+  created_at timestamp
+}
+
+Table units {
+  id bigint [pk, increment]
+  canonical_unit varchar(50) [not null, unique]
+  unit_type varchar(50)
+  to_gram_factor decimal(18,6)
+  to_ml_factor decimal(18,6)
+  is_qualitative boolean
+  created_at timestamp
+}
+
+Table recipe_ingredients {
+  id bigint [pk, increment]
+  recipe_id bigint [not null, ref: > recipes.id]
+  line_no int [not null]
+  raw_text varchar(1000)
+  raw_name varchar(255)
+  ingredient_id bigint [ref: > ingredients.id]
+  raw_amount_text varchar(255)
+  quantity_min decimal(18,6)
+  quantity_max decimal(18,6)
+  quantity_value decimal(18,6)
+  unit_id bigint [ref: > units.id]
+  weight_g decimal(18,6)
+  is_estimated boolean
+  needs_manual_review boolean
+  review_reason varchar(500)
+  created_at timestamp
+
+  indexes {
+    (recipe_id, line_no) [unique]
+  }
+}
+
+Table ingredient_unit_weights {
+  id bigint [pk, increment]
+  ingredient_id bigint [not null, ref: > ingredients.id]
+  unit_id bigint [not null, ref: > units.id]
+  grams_per_unit decimal(18,6) [not null]
+  confidence varchar(20)
+  status varchar(20)
+  source varchar(255)
+  note varchar(500)
+  updated_at timestamp
+
+  indexes {
+    (ingredient_id, unit_id) [unique]
+  }
+}
+
+Table ingredient_densities {
+  id bigint [pk, increment]
+  ingredient_id bigint [not null, unique, ref: > ingredients.id]
+  density_g_ml decimal(18,6) [not null]
+  density_type varchar(32)
+  confidence varchar(20)
+  status varchar(20)
+  source varchar(255)
+  note varchar(500)
+  updated_at timestamp
+}
+
+Table nutrition_source {
+  id bigint [pk, increment]
+  food_code varchar(100) [not null, unique]
+  food_category varchar(255)
+  food_name varchar(255) [not null]
+  content_description text
+  common_names text
+  waste_percent decimal(18,6)
+  raw_data json
+  created_at timestamp
+}
+
+Table nutrient_definitions {
+  id bigint [pk, increment]
+  nutrient_name varchar(255) [not null]
+  unit varchar(50)
+  source_column_name varchar(255) [not null, unique]
+  nutrient_group varchar(100)
+  display_order int [not null]
+  created_at timestamp
+}
+
+Table nutrition_values {
+  nutrition_source_id bigint [pk, ref: > nutrition_source.id]
+  nutrient_id bigint [pk, ref: > nutrient_definitions.id]
+  value_numeric decimal(24,10)
+  value_text varchar(255)
+}
+
+Table ingredient_nutrition_map {
+  id bigint [pk, increment]
+  ingredient_id bigint [not null, unique, ref: > ingredients.id]
+  nutrition_source_id bigint [not null, ref: > nutrition_source.id]
+  match_method varchar(50)
+  match_score decimal(8,6)
+  status varchar(20)
+  reviewed_at timestamp
+  created_at timestamp
+}
+
+Table manual_review {
+  id bigint [pk, increment]
+  ingredient_id bigint [not null, ref: > ingredients.id]
+  candidate_nutrition_id bigint [ref: > nutrition_source.id]
+  candidate_name varchar(255)
+  score decimal(8,6)
+  status varchar(20)
+  note varchar(500)
+  created_at timestamp
+  reviewed_at timestamp
+}
+
+Table recipe_nutrition_summary {
+  id bigint [pk, increment]
+  recipe_id bigint [not null, unique, ref: > recipes.id]
+  energy_kcal decimal(18,6)
+  coverage_percent decimal(8,2)
+  calculated_at timestamp
+}
+
+Table etl_runs {
+  id bigint [pk, increment]
+  run_type varchar(100) [not null]
+  status varchar(30) [not null]
+  started_at timestamp
+  finished_at timestamp
+  message text
+}

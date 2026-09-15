@@ -1,4 +1,7 @@
-CREATE DATABASE IF NOT EXISTS recipe_ai CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci;
+CREATE DATABASE IF NOT EXISTS recipe_ai
+  CHARACTER SET utf8mb4
+  COLLATE utf8mb4_0900_ai_ci;
+
 USE recipe_ai;
 
 CREATE TABLE IF NOT EXISTS recipes (
@@ -10,7 +13,25 @@ CREATE TABLE IF NOT EXISTS recipes (
   raw_keywords TEXT,
   steps LONGTEXT,
   created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-  updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+  updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+    ON UPDATE CURRENT_TIMESTAMP
+);
+
+CREATE TABLE IF NOT EXISTS keywords (
+  id BIGINT PRIMARY KEY AUTO_INCREMENT,
+  keyword_name VARCHAR(100) NOT NULL UNIQUE
+);
+
+CREATE TABLE IF NOT EXISTS recipe_keywords (
+  recipe_id BIGINT NOT NULL,
+  keyword_id BIGINT NOT NULL,
+  PRIMARY KEY (recipe_id, keyword_id),
+  CONSTRAINT fk_rk_recipe
+    FOREIGN KEY (recipe_id) REFERENCES recipes(id)
+    ON DELETE CASCADE,
+  CONSTRAINT fk_rk_keyword
+    FOREIGN KEY (keyword_id) REFERENCES keywords(id)
+    ON DELETE CASCADE
 );
 
 CREATE TABLE IF NOT EXISTS ingredients (
@@ -18,7 +39,19 @@ CREATE TABLE IF NOT EXISTS ingredients (
   canonical_name VARCHAR(255) NOT NULL UNIQUE,
   category VARCHAR(100),
   created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-  updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+  updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+    ON UPDATE CURRENT_TIMESTAMP
+);
+
+CREATE TABLE IF NOT EXISTS ingredient_aliases (
+  id BIGINT PRIMARY KEY AUTO_INCREMENT,
+  ingredient_id BIGINT NOT NULL,
+  alias_name VARCHAR(255) NOT NULL UNIQUE,
+  source VARCHAR(100),
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  CONSTRAINT fk_alias_ingredient
+    FOREIGN KEY (ingredient_id) REFERENCES ingredients(id)
+    ON DELETE CASCADE
 );
 
 CREATE TABLE IF NOT EXISTS units (
@@ -48,10 +81,14 @@ CREATE TABLE IF NOT EXISTS recipe_ingredients (
   needs_manual_review BOOLEAN DEFAULT FALSE,
   review_reason VARCHAR(500),
   created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-  UNIQUE KEY uq_recipe_line(recipe_id,line_no),
-  CONSTRAINT fk_ri_recipe FOREIGN KEY(recipe_id) REFERENCES recipes(id) ON DELETE CASCADE,
-  CONSTRAINT fk_ri_ing FOREIGN KEY(ingredient_id) REFERENCES ingredients(id),
-  CONSTRAINT fk_ri_unit FOREIGN KEY(unit_id) REFERENCES units(id)
+  UNIQUE KEY uq_recipe_line (recipe_id, line_no),
+  CONSTRAINT fk_ri_recipe
+    FOREIGN KEY (recipe_id) REFERENCES recipes(id)
+    ON DELETE CASCADE,
+  CONSTRAINT fk_ri_ingredient
+    FOREIGN KEY (ingredient_id) REFERENCES ingredients(id),
+  CONSTRAINT fk_ri_unit
+    FOREIGN KEY (unit_id) REFERENCES units(id)
 );
 
 CREATE TABLE IF NOT EXISTS ingredient_unit_weights (
@@ -63,10 +100,13 @@ CREATE TABLE IF NOT EXISTS ingredient_unit_weights (
   status VARCHAR(20) DEFAULT 'ACTIVE',
   source VARCHAR(255),
   note VARCHAR(500),
-  updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
-  UNIQUE KEY uq_iuw(ingredient_id,unit_id),
-  CONSTRAINT fk_iuw_ing FOREIGN KEY(ingredient_id) REFERENCES ingredients(id),
-  CONSTRAINT fk_iuw_unit FOREIGN KEY(unit_id) REFERENCES units(id)
+  updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+    ON UPDATE CURRENT_TIMESTAMP,
+  UNIQUE KEY uq_iuw (ingredient_id, unit_id),
+  CONSTRAINT fk_iuw_ingredient
+    FOREIGN KEY (ingredient_id) REFERENCES ingredients(id),
+  CONSTRAINT fk_iuw_unit
+    FOREIGN KEY (unit_id) REFERENCES units(id)
 );
 
 CREATE TABLE IF NOT EXISTS ingredient_densities (
@@ -78,22 +118,65 @@ CREATE TABLE IF NOT EXISTS ingredient_densities (
   status VARCHAR(20) DEFAULT 'ACTIVE',
   source VARCHAR(255),
   note VARCHAR(500),
-  updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
-  CONSTRAINT fk_density_ing FOREIGN KEY(ingredient_id) REFERENCES ingredients(id)
+  updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+    ON UPDATE CURRENT_TIMESTAMP,
+  CONSTRAINT fk_density_ingredient
+    FOREIGN KEY (ingredient_id) REFERENCES ingredients(id)
 );
 
+-- ============================================================
+-- 食品營養資料：食品主檔
+-- Excel 的食品識別/描述欄位放在這裡。
+-- raw_data 另外保留整列 Excel 原始資料，確保來源資料無損保存。
+-- ============================================================
 CREATE TABLE IF NOT EXISTS nutrition_source (
   id BIGINT PRIMARY KEY AUTO_INCREMENT,
-  food_code VARCHAR(100),
-  food_name VARCHAR(255) NOT NULL,
+  food_code VARCHAR(100) NOT NULL,
   food_category VARCHAR(255),
-  energy_kcal DECIMAL(18,6),
-  protein_g DECIMAL(18,6),
-  fat_g DECIMAL(18,6),
-  carbohydrate_g DECIMAL(18,6),
-  sodium_mg DECIMAL(18,6),
+  food_name VARCHAR(255) NOT NULL,
+  content_description TEXT,
+  common_names TEXT,
+  waste_percent DECIMAL(18,6),
   raw_data JSON,
-  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  UNIQUE KEY uq_nutrition_food_code (food_code),
+  INDEX idx_nutrition_food_name (food_name)
+);
+
+-- ============================================================
+-- 營養項目定義
+-- 每一個 Excel 營養欄位只定義一次，例如：
+-- 熱量(kcal)、粗蛋白(g)、鈉(mg)、維生素C(mg)...
+-- ============================================================
+CREATE TABLE IF NOT EXISTS nutrient_definitions (
+  id BIGINT PRIMARY KEY AUTO_INCREMENT,
+  nutrient_name VARCHAR(255) NOT NULL,
+  unit VARCHAR(50),
+  source_column_name VARCHAR(255) NOT NULL,
+  nutrient_group VARCHAR(100),
+  display_order INT NOT NULL,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  UNIQUE KEY uq_nutrient_source_column (source_column_name)
+);
+
+-- ============================================================
+-- 食品 × 營養項目 的數值
+-- 所有 Excel 營養欄位都寫入此表。
+-- value_numeric 適合數值欄位；
+-- value_text 用來完整保留 P/M/S 等文字格式欄位。
+-- ============================================================
+CREATE TABLE IF NOT EXISTS nutrition_values (
+  nutrition_source_id BIGINT NOT NULL,
+  nutrient_id BIGINT NOT NULL,
+  value_numeric DECIMAL(24,10),
+  value_text VARCHAR(255),
+  PRIMARY KEY (nutrition_source_id, nutrient_id),
+  CONSTRAINT fk_nv_source
+    FOREIGN KEY (nutrition_source_id) REFERENCES nutrition_source(id)
+    ON DELETE CASCADE,
+  CONSTRAINT fk_nv_definition
+    FOREIGN KEY (nutrient_id) REFERENCES nutrient_definitions(id)
+    ON DELETE CASCADE
 );
 
 CREATE TABLE IF NOT EXISTS ingredient_nutrition_map (
@@ -105,8 +188,10 @@ CREATE TABLE IF NOT EXISTS ingredient_nutrition_map (
   status VARCHAR(20),
   reviewed_at TIMESTAMP NULL,
   created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-  CONSTRAINT fk_inm_ing FOREIGN KEY(ingredient_id) REFERENCES ingredients(id),
-  CONSTRAINT fk_inm_ns FOREIGN KEY(nutrition_source_id) REFERENCES nutrition_source(id)
+  CONSTRAINT fk_inm_ingredient
+    FOREIGN KEY (ingredient_id) REFERENCES ingredients(id),
+  CONSTRAINT fk_inm_source
+    FOREIGN KEY (nutrition_source_id) REFERENCES nutrition_source(id)
 );
 
 CREATE TABLE IF NOT EXISTS manual_review (
@@ -119,19 +204,31 @@ CREATE TABLE IF NOT EXISTS manual_review (
   note VARCHAR(500),
   created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
   reviewed_at TIMESTAMP NULL,
-  CONSTRAINT fk_mr_ing FOREIGN KEY(ingredient_id) REFERENCES ingredients(id),
-  CONSTRAINT fk_mr_ns FOREIGN KEY(candidate_nutrition_id) REFERENCES nutrition_source(id)
+  CONSTRAINT fk_mr_ingredient
+    FOREIGN KEY (ingredient_id) REFERENCES ingredients(id),
+  CONSTRAINT fk_mr_source
+    FOREIGN KEY (candidate_nutrition_id) REFERENCES nutrition_source(id)
 );
 
+-- 目前產品功能只使用熱量。
+-- 未來若要顯示蛋白質/脂肪/鈉等，可直接從 nutrition_values 取得，
+-- 不需要重新匯入 Excel。
 CREATE TABLE IF NOT EXISTS recipe_nutrition_summary (
   id BIGINT PRIMARY KEY AUTO_INCREMENT,
   recipe_id BIGINT NOT NULL UNIQUE,
   energy_kcal DECIMAL(18,6),
-  protein_g DECIMAL(18,6),
-  fat_g DECIMAL(18,6),
-  carbohydrate_g DECIMAL(18,6),
-  sodium_mg DECIMAL(18,6),
   coverage_percent DECIMAL(8,2),
   calculated_at TIMESTAMP NULL,
-  CONSTRAINT fk_rns_recipe FOREIGN KEY(recipe_id) REFERENCES recipes(id) ON DELETE CASCADE
+  CONSTRAINT fk_rns_recipe
+    FOREIGN KEY (recipe_id) REFERENCES recipes(id)
+    ON DELETE CASCADE
+);
+
+CREATE TABLE IF NOT EXISTS etl_runs (
+  id BIGINT PRIMARY KEY AUTO_INCREMENT,
+  run_type VARCHAR(100) NOT NULL,
+  status VARCHAR(30) NOT NULL,
+  started_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  finished_at TIMESTAMP NULL,
+  message TEXT
 );
